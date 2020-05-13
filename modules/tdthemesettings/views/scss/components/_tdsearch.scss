@@ -1,0 +1,65 @@
+#search_block_top {
+  #searchbox {
+    @include general(background, $h_search_input_bg);
+    border: $h_search_input_border;
+    .searchboxform-control {
+      #search_category {
+        @include general(color, $h_search_input_txt);
+      }
+      &:before {
+        background: rgba( $h_search_input_txt, 0.2);
+      }
+      &:after {
+        @include general(color, $h_search_input_txt);
+      }
+    }
+    button {
+      @include general(background, $h_search_btn_bg);
+      @include general(color, $h_search_btn_text);
+      border: $h_search_btn_border;
+      &:hover {
+        @include general(background, $h_search_btn_bg_h);
+        @include general(color, $h_search_btn_text_h);
+        @include general(border-color, $h_search_btn_border_h);
+      }
+    }
+  }
+  input.form-control {
+    @include general(color, $h_search_input_txt);
+  }
+  input.form-control::-webkit-input-placeholder {
+    @include general(color, $h_search_input_txt);
+  }
+  input.form-control::placeholder {
+    @include general(color, $h_search_input_txt);
+  }
+  input.form-control::-ms-input-placeholder {
+    @include general(color, $h_search_input_txt);
+  }
+  input.form-control::-moz-placeholder {
+    @include general(color, $h_search_input_txt);
+  }
+  .search-btn {
+    @include general(color, $h_search_input_txt);
+  }
+}
+//defauly search
+.search-widget {
+	form {
+		input[type=text] {
+      @include general(background, $h_search_input_bg);
+      @include general(color, $h_search_input_txt);
+      border: $h_search_input_border;
+		}
+		button[type=submit] {
+			@include general(background, $h_search_btn_bg);
+      @include general(color, $h_search_btn_text);
+      border: $h_search_btn_border;
+			&:hover {
+				@include general(background, $h_search_btn_bg_h);
+        @include general(color, $h_search_btn_text_h);
+        @include general(border-color, $h_search_btn_border_h);
+			}
+		}
+	}
+}

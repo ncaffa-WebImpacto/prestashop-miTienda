@@ -1,0 +1,113 @@
+.td-newsletter {
+  display: none;
+  background-size: cover;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  min-width: 290px;
+  width: 90%;
+  @include translate (-50%, -50%);
+  .image-newsletter {
+    padding: 0;
+    text-align: center;
+    img {
+      width: 100%;
+    }
+  }
+  .box-newsletter {
+    padding: 0;
+    text-align: center;
+    height: auto!important;
+    background: white;
+    display: flex;
+    align-items: center;
+    .innerbox-newsletter {
+      padding: 30px;
+      .newsletter-desc {
+        margin: 10px 0 0;
+      }
+      .tdnewsletter_form {
+        padding-top: 10px;
+      }
+    }
+  }
+  .td-newsletter-dont {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    @include transition(all 0.3s ease-in-out);
+  }
+  .td-newsletter-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    z-index: 2;
+    text-align: center;
+    @include transition(all 0.3s ease-in-out);
+  }
+  .input-wrapper {
+    .form-control {
+      text-align: center;
+    }
+  }
+  .tdnewsletter_send {
+    margin-top: 10px;
+  }
+  .lang-rtl & {
+    @include translate(50%, -50%);
+    .td-newsletter-dont {
+      left: 12px;
+      right: auto;
+    }
+    .td-newsletter-close {
+      right: auto;
+      left: 0;
+    }
+  }
+}
+.newsletter-content {
+  margin-bottom: 10px;
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+}
+.td-newsletter-close {
+  &:before {
+    content: "\2716";
+    display: block;
+    font-size: 22px;
+    line-height: 43px;
+  }
+}
+.td-newsletter-link {
+  display: block;
+}
+@include media-breakpoint-down(md) { /* max 991 */
+  .td-newsletter {
+    min-height: 0px !important;
+    height: auto !important;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .td-newsletter {
+    .box-newsletter {
+      .innerbox-newsletter {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

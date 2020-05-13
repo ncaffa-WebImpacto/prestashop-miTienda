@@ -1,0 +1,268 @@
+#product_comments_block_extra {
+	padding:0;
+	// margin-top:10px;
+	display:flex;
+	flex-wrap:wrap;
+	width: 100%;
+	.comments_note {
+		display:inline-flex;
+		margin: 0 20px 0 0;
+	}
+	.comments_note span{display: none;}
+	.comments_advices {
+		margin:0;
+		display:inline-flex;
+		.quickview & {
+			display: none;
+		}
+	}
+}
+
+.comments_advices {
+	li{
+		display:inline-block;
+		@include media-breakpoint-only(md) { /* min 768 max 991 */
+			line-height: 20px;
+		}
+	}
+	a {
+		text-decoration: none;
+		position:relative;
+		padding: 0;
+		display:inline-block;
+		@include media-breakpoint-only(md) { /* min 768 max 991 */
+			float: none;
+			line-height: 20px;
+		}
+		@include media-breakpoint-down(xs) { /* max 543 */
+			font-size: 13px;
+		}
+		i {
+			font-size: 18px;
+			margin: 0 5px 0 0;
+			vertical-align: middle;
+			@include media-breakpoint-down(xs) { /* max 543 */
+				font-size: 16px;
+			}
+		}
+		&.reviews{
+			margin: 0 15px 0 0;
+			@include media-breakpoint-down(xs) { /* max 543 */
+				margin: 0 10px 0 0;
+			}
+		}
+	}
+}
+
+/* pop-in add grade/advice ********************************************************************* */
+#tdcomment-modal {
+	.modal-dialog {
+		max-width: 700px;
+		.modal-header {
+			h2 {
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+		.modal-body {
+			.product {
+				.product_desc {
+					line-height: 18px;
+					.product_name {
+						padding: 10px 0 5px;
+					}
+				}
+			}
+			#criterions_list {
+				border-bottom: 1px solid $border-color;
+				padding-bottom: 15px;
+				margin-bottom: 15px;
+				list-style-type: none;
+				li{
+					margin-bottom: 10px;
+				}
+				label {
+					float: left;
+					margin: 0 10px 0 0;
+					min-width: 100px;
+					text-align: left;
+				}
+				.star_content {
+					float: left;
+				}
+			}
+		}
+		.modal-footer {
+			text-align: center;
+			flex-direction: row;
+			 @include media-breakpoint-down(sm) {
+			 }
+			button {
+				margin: 0 5px;
+			}
+			> .btn {
+				width: auto;
+			}
+		}
+	}
+}
+
+/* TAB COMMENTS ******************************************************************************** */
+#product_comments_block_tab {
+	.new_comment {
+		margin-bottom: 20px;
+	}
+	div.comment {
+		padding: 0 0 15px;
+		margin: 0 0 15px;
+		border-bottom: 1px solid $border-color;
+		&:last-child{
+			border:none;
+			margin: 0;
+			padding: 0;
+		}
+		.comment_author {
+			@include media-breakpoint-down(sm) { /* max 767 */
+				margin-bottom: 10px;
+			}
+			span{
+				font-weight: bold;
+			}
+		}
+		.comment_details {
+			overflow: hidden;
+			ul {
+				margin: 0;
+				li {
+					@include media-breakpoint-down(xs) { /* max 543 */
+						padding: 2px 0;
+						float: left;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.comment_author_infos {
+		margin-top: 10px;
+		strong {
+			display: block;
+		}
+		em {
+			font-size: 12px;
+		}
+	}
+	a {
+		text-decoration: none;
+		display:inline-block;
+	}
+	.comment_helpful {
+		float: left;
+		.btn {
+			border: medium none;
+			font-weight: normal;
+			background: none;
+			color: currentcolor;
+			padding: 0;
+			span {
+				padding: 0;
+				&:before {
+					font-family: 'Material Icons';
+					margin: 0 5px;
+					display: inline-block;
+				}
+			}
+			&:hover {
+				background: none;
+				&.usefull {
+					span {
+						color: green;
+					}
+				}
+				&.notusefull {
+					span {
+						color: red;
+					}
+				}
+			}
+			&.usefull {
+				span {
+					&:before {
+						content: "\e8dc";
+					}
+				}
+			}
+			&.notusefull {
+				span {
+					&:before {
+						content: "\e8db";
+					}
+				}
+			}
+		}
+	}
+	span.report_btn {
+		cursor: pointer;
+		float: right;
+		@include media-breakpoint-down(xs) { /* max 543 */
+			float: left;
+		}
+	}
+	span.report_btn:hover {
+		text-decoration: underline;
+	}
+}
+.star_content {
+	display:inline-flex;
+}
+.star {
+	position: relative;
+	cursor: pointer;
+	font-size: 16px;
+	a {
+		display: block;
+		position: absolute;
+		text-indent: -5000px;
+		font-size:0;
+	}
+	&:after {
+		content: "\E83A";
+		font-family: "Material Icons";
+	}
+	&.star_on {
+		&.star_half {
+			&:after {
+				content: "\E839";
+			}
+		}
+		&:after {
+			content: "\E838";
+		}
+	}
+	&.star_hover {
+		&:after {
+			content: "\E838";
+		}
+	}
+}
+
+.commentcluetip {
+	width: 210px;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+	margin-bottom: 20px;
+	min-height: 20px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.comments_note {
+	display: inline-flex;
+	align-items: stretch;
+	.nb-comments {
+		margin-left: 2px;
+	}
+}

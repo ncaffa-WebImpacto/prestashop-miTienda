@@ -1,0 +1,19 @@
+.block-reassurance{
+	margin-top: 10px;
+	img {
+		width: 20px;
+		margin-right:5px;
+	}
+	ul {
+		margin-bottom: 0; 
+		li {
+			.block-reassurance-item {
+				padding: 5px 0;
+				cursor: pointer;
+				span {
+					font-weight: normal;
+				}
+			}
+		}
+	}
+}

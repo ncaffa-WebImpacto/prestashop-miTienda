@@ -1,0 +1,34 @@
+#maintenance {
+  background: $mt_background;
+  @include general(color, $mt_text_color);
+}
+#maintenance a {
+  @include general(color, $mt_text_color);
+}
+@if $mt_newsletter == 1 {
+  .newsletter_form_inner .btn  {
+    @include general(background, $mt_button_bg);
+    @include general(color, $mt_button_txt);
+    &:hover {
+      @include general(background, $mt_button_bg_h);
+      @include general(color, $mt_button_txt_h);
+    }
+  }
+  .newsletter_form_inner .newsletter-input {
+    border: $mt_form_border;
+    @include general(background, $mt_form_bg);
+    @include general(color, $mt_form_txt);
+  }
+  .newsletter_form_inner .newsletter-input::-webkit-input-placeholder {
+    @include general(color, $mt_form_txt);
+  }
+  .newsletter_form_inner .newsletter-input::-moz-placeholder {
+    @include general(color, $mt_form_txt);
+  }
+  .newsletter_form_inner .newsletter-input:-ms-input-placeholder {
+    @include general(color, $mt_form_txt);
+  }
+  .newsletter_form_inner .newsletter-input :-moz-placeholder {
+    @include general(color, $mt_form_txt);
+  }
+}

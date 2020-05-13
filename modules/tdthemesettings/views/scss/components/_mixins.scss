@@ -1,0 +1,27 @@
+/*** Style mixins ***/
+@mixin text-truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin general($key, $value: null) {
+  @if $value != null {
+    #{$key}: #{$value};
+  }
+}
+
+@mixin suffix($key, $value: null, $suffix) {
+  @if $value != null {
+    #{$key}: $value + $suffix;
+  }
+}
+@function titleBottomCalc($pxval) {
+  $pxval: null !default;
+
+  @if $pxval != null {
+    @return (-$pxval / 2) * 1px;
+  }
+  @return 0px;
+
+}

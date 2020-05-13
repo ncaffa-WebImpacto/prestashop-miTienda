@@ -1,0 +1,13 @@
+.btn.btn-edit-with-elementor {
+  background: #9b0a46;
+  padding: 10px 12px;
+  color: #fff !important;
+  display: inline-flex;
+  align-items: center;
+}
+.btn.btn-edit-with-elementor svg {
+  margin-right: 10px;
+}
+.btn.btn-edit-with-elementor:hover {
+  background: #ac0a49;
+}

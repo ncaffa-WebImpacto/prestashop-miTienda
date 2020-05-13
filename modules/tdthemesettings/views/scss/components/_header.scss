@@ -1,0 +1,208 @@
+//header-wrapper
+#header {
+  background: $h_background;
+  border-top: $h_border_t;
+  border-bottom: $h_border_b;
+  @if $h_boxshadow != none {
+    box-shadow: $h_boxshadow;
+  }
+  @if $h_absolute == 1 {
+    @media (min-width: 992px) {
+      #index & {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin:auto;
+        @include general(background, $h_absolute_wrapper_bg);
+        z-index: 11;
+      }
+    }
+  }
+  .search-widget {
+    input.form-control {
+      @include general(background, $h_search_input_bg);
+      @include general(color, $h_search_input_txt);
+      border: $h_search_input_border;
+    }
+    input.form-control::-webkit-input-placeholder {
+      @include general(color, $h_search_input_txt);
+    }
+    input.form-control::placeholder {
+      @include general(color, $h_search_input_txt);
+    }
+    input.form-control::-ms-input-placeholder {
+      @include general(color, $h_search_input_txt);
+    }
+    input.form-control::-moz-placeholder {
+      @include general(color, $h_search_input_txt);
+    }
+    .search-btn {
+      @include general(color, $h_search_input_txt);
+    }
+  }
+  .blockcart {
+    > a.shoppingcart {
+      .cart-products-count {
+        @include general(background, $h_cart_count_bg);
+        @include general(color, $h_cart_count_text);
+      }
+    }
+    .cart_block {
+      @include general(background, $h_cart_bg);
+      @if $h_cart_boxshadow != none {
+        box-shadow: $h_cart_boxshadow;
+      }
+      .block_content {
+        @include general(color, $h_cart_inner_text);
+        #cart-close {
+          @include general(color, $h_cart_title_color);
+        }
+        .cart-header {
+          @include general(border-color, $h_cart_inner_border);
+          .cart-title {
+            @include suffix(font-size, $h_cart_title_size, px);
+            @include suffix(letter-spacing, $h_cart_title_spacing, px);
+            @include suffix(font-style, $h_cart_title_style, '');
+            @include general(font-weight, $h_cart_title_weight);
+            @include suffix(text-transform, $h_cart_title_uppercase, '');
+            @include general(color, $h_cart_title_color);
+          }
+        }
+        .cart-body {
+          .products {
+            .product {
+              @include general(border-color, $h_cart_inner_border);
+            }
+          }
+          a {
+            @include general(color, $h_cart_inner_text);
+            &:hover {
+              @include general(color, $h_cart_inner_h_text);
+            }
+          }
+        }
+        .cart-footer {
+          @include general(border-color, $h_cart_inner_border);
+        }
+      }
+    }
+  }
+}
+
+.header-nav {
+  @include general(color, $tb_text_color);
+  background: $tb_background;
+  border-bottom: $tb_border;
+  @include suffix(padding-top, $tb_padding_top, px);
+  @include suffix(padding-right, $tb_padding_right, px);
+  @include suffix(padding-bottom, $tb_padding_bottom, px);
+  @include suffix(padding-left, $tb_padding_left, px);
+  @include suffix(font-size, $tb_font_size, px);
+  @if $tb_boxshadow != none {
+    box-shadow: $tb_boxshadow;
+  }
+  @if $tb_status != 1 {
+    display: none !important;
+  }
+  @media (max-width: 991px) {
+    @include suffix(padding-top, $tb_padding_r_top, px);
+    @include suffix(padding-right, $tb_padding_r_right, px);
+    @include suffix(padding-bottom, $tb_padding_r_bottom, px);
+    @include suffix(padding-left, $tb_padding_r_left, px);
+  }
+  a:not(.btn)  {
+    @include general(color, $tb_link_color);
+    &:hover {
+      @include general(color, $tb_link_h_color);
+    }
+  }
+  .lang-rtl & {
+    @include suffix(padding-left, $tb_padding_right, px);
+    @include suffix(padding-right, $tb_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-left, $tb_padding_r_right, px);
+      @include suffix(padding-right, $tb_padding_r_left, px);
+    }
+  }
+}
+
+.header-top {
+  @include general(color, $h_text_color);
+  @include suffix(padding-top, $h_padding_top, px);
+  @include suffix(padding-right, $h_padding_right, px);
+  @include suffix(padding-bottom, $h_padding_bottom, px);
+  @include suffix(padding-left, $h_padding_left, px);
+  @include suffix(font-size, $h_font_size, px);
+  @media (max-width: 991px) {
+    @include suffix(padding-top, $h_padding_r_top, px);
+    @include suffix(padding-right, $h_padding_r_right, px);
+    @include suffix(padding-bottom, $h_padding_r_bottom, px);
+    @include suffix(padding-left, $h_padding_r_left, px);
+  }
+  a:not(.btn) {
+    @include general(color, $h_link_color);
+    &:hover {
+      @include general(color, $h_link_h_color);
+    }
+  }
+  .lang-rtl & {
+    @include suffix(padding-left, $h_padding_right, px);
+    @include suffix(padding-right, $h_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-left, $h_padding_r_right, px);
+      @include suffix(padding-right, $h_padding_r_left, px);
+    }
+  }
+}
+.header-top {
+  background: $h_background;
+}
+.nav-full-width {
+  @include general(color, $nf_text_color);
+  background: $nf_background;
+  border-top: $nf_border;
+  @include suffix(padding-top, $nf_padding_top, px);
+  @include suffix(padding-right, $nf_padding_right, px);
+  @include suffix(padding-bottom, $nf_padding_bottom, px);
+  @include suffix(padding-left, $nf_padding_left, px);
+  @if $nf_boxshadow != none {
+    box-shadow: $nf_boxshadow;
+  }
+  @media (max-width: 991px) {
+    @include suffix(padding-top, $nf_padding_r_top, px);
+    @include suffix(padding-right, $nf_padding_r_right, px);
+    @include suffix(padding-bottom, $nf_padding_r_bottom, px);
+    @include suffix(padding-left, $nf_padding_r_left, px);
+  }
+  a:not(.btn)  {
+    @include general(color, $nf_link_color);
+    &:hover {
+      @include general(color, $nf_link_h_color);
+    }
+  }
+  .lang-rtl & {
+    @include suffix(padding-left, $nf_padding_right, px);
+    @include suffix(padding-right, $nf_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-left, $nf_padding_r_right, px);
+      @include suffix(padding-right, $nf_padding_r_left, px);
+    }
+  }
+}
+
+@if $h_sticky == 1 {
+  .sticky-header-wrapper {
+    .fixed {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      @include suffix(padding-top, $h_sticky_padding, px);
+      @include suffix(padding-bottom, $h_sticky_padding, px);
+      @include general(background, $h_sticky_bg);
+    }
+  }
+}

@@ -1,0 +1,110 @@
+.page-wrapper {
+  border: medium none;
+  .page-home > * {
+    justify-content: center;
+  }
+  .page-header {
+    padding: 0;
+    background: transparent;
+    border: medium none;
+    margin-bottom: 30px;
+  }
+  .page-content {
+    .form-group {
+      display: block;
+      text-align: left;
+      position: relative;
+      label {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+      }
+      .custom-radio {
+        background: transparent;
+      }
+    }
+    .form-footer {
+      background: #f2f2f2;
+      .btn {
+        width: 100%;
+      }
+    }
+    .form-control-submit {
+      width: 100%;
+    }
+    .form-fields {
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.js-visible-password.is-invalid ~ {
+  .invalid-feedback, .invalid-tooltip {
+    display: block;
+  }
+}
+.was-validated {
+  .js-visible-password:invalid ~ {
+    .invalid-feedback, .invalid-tooltip {
+      display: block;
+    }
+  }
+}
+.js-visible-password.is-invalid, .was-validated .js-visible-password:invalid {
+  padding-right: 60px;
+  background-position: center right 36px;
+}
+.js-visible-password.is-valid, .was-validated .js-visible-password:valid {
+  padding-right: 60px;
+  background-position: center right 36px;
+}
+.form-control.js-visible-password {
+  padding-right: 45px;
+}
+.input-group {
+  .btn:not(:disabled):not(.disabled) {
+    &:active, &:hover, &:focus, &.active {
+      background: transparent;
+      border: medium none;
+      box-shadow: none;
+      color: $primary;
+      &:before {
+        color: $primary;
+      }
+    }
+    &:active, &.active {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
+button[data-action="show-password"] {
+  background: transparent;
+  border: medium none;
+  position: absolute;
+  right: 0;
+  font-size: 0;
+  box-shadow: none;
+  z-index: 8;
+  padding: 0;
+  width: 34px;
+  height: 34px;
+  &:before {
+    content: "\f06e";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    color: $gray-400;
+  }
+}
+input[type="text"] + button[data-action="show-password"] {
+  &:before {
+    content: "\f070";
+  }
+}

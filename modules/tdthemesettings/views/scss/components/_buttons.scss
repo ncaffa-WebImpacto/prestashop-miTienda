@@ -1,0 +1,23 @@
+/*** Primary button ***/
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled, .btn-default {
+  @include general(background, $primarybtn_bg);
+  @include general(color, $primarybtn_txt);
+  border: $primarybtn_border;
+  &:hover, &:active, &:focus, &.checked {
+    @include general(background, $primarybtn_bg_h);
+    @include general(color, $primarybtn_txt_h);
+    @include general(border-color, $primarybtn_border_h);
+  }
+}
+
+/*** Secondary button ***/
+.btn-secondary, .btn-secondary.disabled, .btn-secondary:disabled {
+  @include general(background, $secondarybtn_bg);
+  @include general(color, $secondarybtn_txt);
+  border: $secondarybtn_border;
+  &:hover, &:active, &:focus {
+    @include general(background, $secondarybtn_bg_h);
+    @include general(color, $secondarybtn_txt_h);
+    @include general(border-color, $secondarybtn_border_h);
+  }
+}

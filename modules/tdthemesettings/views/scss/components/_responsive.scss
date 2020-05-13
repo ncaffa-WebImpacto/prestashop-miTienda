@@ -1,0 +1,46 @@
+/* responsive megamenu and verticalmenu css */
+@media (max-width: 991px) {
+  .title_horizontal {
+    @include general(background-color, $res_header_mtitle_bg);
+    @include general(color, $res_header_mtitle);
+  }
+  #bitmegamenu-mobile {
+    border-top: $res_header_mborder;
+    a{
+      border-bottom: $res_header_mborder;
+      @include general(color, $res_header_text);
+      &:hover {
+        @include general(color, $res_header_h_text);
+      }
+    }
+    .mm-expand{
+      @include general(color, $res_header_text);
+      &:hover {
+        @include general(color, $res_header_h_text);
+      }
+    }
+  }  
+}
+@media (max-width: 991px) {
+  #mobile_top_menu_wrapper {
+    .modal-content {
+      @include general(background, $res_header_bg);
+      @if $res_header_boxshadow != none {
+        box-shadow: $res_header_boxshadow;
+      }
+      @include general(color, $res_header_text);
+      a, .custom-html {
+        @include general(color, $res_header_text);
+        &:hover {
+          @include general(color, $res_header_h_text);
+        }
+      }
+      .modal-header {
+        .close {
+          opacity: 1;
+          @include general(color, $res_header_mtitle);
+        }
+      }
+    }
+  }
+}

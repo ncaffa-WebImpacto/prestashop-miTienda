@@ -1,0 +1,31 @@
+@if $g_btt_status == 1 {
+  .backtotop {
+    border-radius: 100%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 50px;
+    padding: 6px;
+    position: fixed;
+    text-align: center;
+    z-index: 99;
+    overflow: hidden;
+    @include general(background, $g_btt_bg_color);
+    @include general(color, $g_btt_link_color);
+    border: $g_btt_border;
+    i {
+      font-size: 24px;
+      vertical-align: middle;
+    }
+    &:hover{
+      @include general(background, $g_btt_bg_h_color);
+      @include general(color, $g_btt_link_h_color);
+      @include general(border-color, $g_btt_border_h);
+    }
+  }
+  .lang-rtl &{
+    left: 20px;
+    right: auto;
+  }
+}

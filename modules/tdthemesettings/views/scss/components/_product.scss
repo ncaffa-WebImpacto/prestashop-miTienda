@@ -1,0 +1,118 @@
+/* Product Page title */
+.product-action-wrap {
+  .product_title {
+    @include suffix(font-size, $pp_name_typo_size, px);
+    @include suffix(letter-spacing, $pp_name_typo_spacing, px);
+    @include suffix(font-style, $pp_name_typo_style, "");
+    @include general(font-weight, $pp_name_typo_weight);
+    @include suffix(text-transform, $pp_name_typo_uppercase, "");
+    @include general(color, $pp_name_color);
+  }
+}
+//price font
+.product-prices {
+  @include suffix(font-size, $pp_price_typo_size, px);
+}
+.product-price {
+  @include suffix(font-size, $pp_price_typo_size, px);
+  @include suffix(letter-spacing, $pp_price_typo_spacing, px);
+  @include suffix(font-style, $pp_price_typo_style, "");
+  @include general(font-weight, $pp_price_typo_weight);
+  @include suffix(text-transform, $pp_price_typo_uppercase, "");
+  @include general(color, $pp_price_color);
+}
+.product-tags,
+.product-cats,
+.blog-tags {
+  a {
+    @include general(background, $pp_tagc_bg);
+    @include general(color, $pp_tagc_color);
+    border: $pp_tagc_border;
+    &:hover {
+      @include general(background, $pp_tagc_bg_h);
+      @include general(color, $pp_tagc_color_h);
+      @include general(border-color, $pp_tagc_border_h);
+    }
+  }
+}
+.bit-blog-tags {
+  .blog-tags-inner {
+    > a {
+      @include general(background, $pp_tagc_bg);
+      @include general(color, $pp_tagc_color);
+      border: $pp_tagc_border;
+      &:hover {
+        @include general(background, $pp_tagc_bg_h);
+        @include general(color, $pp_tagc_color_h);
+        @include general(border-color, $pp_tagc_border_h);
+      }
+    }
+  }
+}
+.product-tabs {
+  @media (min-width: 992px) {
+    .nav-link {
+      @include general(color, $pp_tabs_txt);
+      border-bottom: $pp_tabs_border;
+      @include suffix(font-size, $pp_tabs_typo_size, px);
+      @include suffix(letter-spacing, $pp_tabs_typo_spacing, px);
+      @include suffix(font-style, $pp_tabs_typo_style, "");
+      @include general(font-weight, $pp_tabs_typo_weight);
+      @include suffix(text-transform, $pp_tabs_typo_uppercase, "");
+      &.active,
+      &:hover,
+      &:focus,
+      &:active {
+        @include general(color, $pp_tabs_txt_h);
+      }
+      &.active,
+      &:active {
+        border-bottom: $pp_tabs_border_h;
+      }
+    }
+  }
+}
+// reponsive tabs
+@media (max-width: 991px) {
+  .box-nav-tab {
+    .dropdown-toggle-nav-tab {
+      @include general(background, $pp_tabs_bg_r);
+      @include general(color, $pp_tabs_txt_r);
+      border: $pp_tabs_border_r;
+      @include suffix(padding-top, $pp_tabs_padding_r_top, px);
+      @include suffix(padding-right, $pp_tabs_padding_r_right, px);
+      @include suffix(padding-bottom, $pp_tabs_padding_r_bottom, px);
+      @include suffix(padding-left, $pp_tabs_padding_r_left, px);
+    }
+    .dropdown-menu-nav-tab {
+      @include general(background, $pp_dd_tabs_bg_r);
+      @if $pp_dd_tabs_boxshadow != none {
+        box-shadow: $pp_dd_tabs_boxshadow;
+      }
+      .nav-item {
+        .nav-link {
+          @include general(background, $pp_link_tabs_bg_r);
+          @include general(color, $pp_link_tabs_txt_r);
+          border-bottom: $pp_link_tabs_border_r;
+          @include suffix(line-height, $pp_link_tabs_lineheight, px);
+          @include suffix(padding-top, $pp_link_tabs_padding_r_top, px);
+          @include suffix(padding-right, $pp_link_tabs_padding_r_right, px);
+          @include suffix(padding-bottom, $pp_link_tabs_padding_r_bottom, px);
+          @include suffix(padding-left, $pp_link_tabs_padding_r_left, px);
+          &.active {
+            @include general(background, $pp_link_tabs_bg_r_a);
+            @include general(color, $pp_link_tabs_txt_r_a);
+          }
+        }
+      }
+    }
+  }
+}
+.product-btn-block {
+  a:not(.btn) {
+    @include general(color, $pp_btn_color);
+    &:hover, &.active, &:active, &:focus {
+      @include general(color, $pp_btn_color_h);
+    }
+  }
+}

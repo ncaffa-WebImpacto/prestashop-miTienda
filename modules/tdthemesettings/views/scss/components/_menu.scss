@@ -1,0 +1,315 @@
+/*** HORIZONTAL MENU ***/
+#bitmegamenu-horizontal {
+  background: $hm_background;
+  border-top: $hm_border_t;
+  border-right: $hm_border_r;
+  border-bottom: $hm_border_b;
+  border-left: $hm_border_l;
+}
+
+.cbp-horizontal > ul > li > a,
+.cbp-horizontal > ul > li > a:not([href]):not([tabindex]),
+.cbp-horizontal > ul > li > .cbp-main-link {
+  @include suffix(line-height, $hm_height, px);
+  @include general(color, $hm_btn_color);
+  @include suffix(padding-left, $hm_padding, px);
+  @include suffix(padding-right, $hm_padding, px);
+  border-left: $hm_border_i;
+}
+
+.cbp-vertical-on-top .cbp-vertical-title{
+  @include suffix(line-height, $hm_height, px !important);
+}
+@if $vm_title_text != 1 {
+  .cbp-vertical-on-top .cbp-vertical-title-text{
+    display: none !important;
+  }
+}
+
+
+.cbp-horizontal > ul > li.cbp-hropen > a, .cbp-horizontal > ul > li.cbp-hropen > a:not([href]):not([tabindex]), .cbp-horizontal > ul > li.cbp-hropen > a:hover {
+  @include general(background, $hm_btn_bg_color_h);
+  @include general(color, $hm_btn_color_h);
+}
+
+.cbp-horizontal {
+  .cbp-tab-title {
+    @include suffix(font-size, $hm_typo_size, px);
+    @include suffix(letter-spacing, $hm_typo_spacing, px);
+    @include suffix(font-style, $hm_typo_style, '');
+    @include general(font-weight, $hm_typo_weight);
+    @include suffix(text-transform, $hm_typo_uppercase, '');
+    line-height: 1em;
+  }
+  .cbp-legend {
+    @include general(background, $hm_legend_color);
+    @include general(color, $hm_legend_bg_color);
+  }
+  .cbp-mainlink-icon, .cbp-mainlink-iicon {
+    @include suffix(font-size, $hm_btn_icon_size, px);
+    @include suffix(max-height, $hm_btn_icon_size, px);
+  }
+  @if $hm_btn_icon == above {
+    .cbp-mainlink-icon, .cbp-mainlink-iicon {
+      display: block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: .8rem;
+    }
+    .cbp-tab-title {
+      text-align: center;
+    }
+  }
+
+  @if $hm_btn_position == center {
+    > ul {
+      text-align: center;
+    }
+    > ul > li {
+      float: none;
+      text-align: left;
+    }
+  }
+
+  @if $hm_btn_position == right {
+    > ul {
+      text-align: right;
+    }
+    > ul > li {
+      float: none;
+      text-align: left;
+    }
+  }
+
+  @if $hm_btn_arrow != 1 {
+    .cbp-submenu-aindicator {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .cbp-horizontal {
+    .cbp-tab-title {
+      @include suffix(font-size, $hm_small_font, px);
+    }
+  }
+
+  .cbp-horizontal > ul > li > a,
+  .cbp-horizontal > ul > li > a:not([href]):not([tabindex]),
+  .cbp-horizontal > ul > li > .cbp-main-link {
+    @include suffix(padding-left, $hm_small_padding, px);
+    @include suffix(padding-right, $hm_small_padding, px);
+  }
+}
+
+#cbp-hrmenu {
+    .cbp-hrsub, .cbp-hrsub-level2, .cbp-hrsub-wrapper {
+        transition: visibility 300ms ease-in-out, opacity 300ms ease-in-out;
+    }
+}
+
+@if $hm_submenu_width == fullwidth {
+
+  .container-bitmegamenu, .bit-megamenu-container, .cbp-hrsub-narrow, #desktop-header-container.container{
+    position: static !important;
+  }
+
+  .bitmegamenu-submenu-container{
+    width:  auto!important;
+    max-width: 100% !important;
+    padding: 0;
+  }
+
+} @else if $hm_submenu_width == fullwidth-background{
+  .container-bitmegamenu, .bit-megamenu-container, .cbp-hrsub-narrow, #desktop-header-container.container{
+    position: static !important;
+  }
+  .cbp-hrmenu .cbp-hrsub-inner{
+    padding-left: 0;
+    padding-right: 0;
+  }
+} @else {
+  .bitmegamenu-submenu-container{
+    padding: 0;
+  }
+}
+
+
+
+/*** VERTICAL MENU ***/
+.cbp-vertical-on-top {
+  @include suffix(margin-right, $vm_margin, px);
+}
+.cbp-vertical-on-top #cbp-hrmenu1-ul{
+  @include general(background, $vm_bgcolor);
+  border: $vm_border;
+  @if $vm_boxshadow != none {
+    box-shadow: $vm_boxshadow;
+  }
+}
+
+#content-wrapper #cbp-hrmenu1{
+  @include general(background, $vm_bgcolor);
+  border: $vm_border;
+  @if $vm_boxshadow != none {
+    box-shadow: $vm_boxshadow;
+  }
+  }
+
+#cbp-hrmenu1 {
+  .cbp-vertical-title {
+    @include suffix(font-size, $vm_title_typo_size, px);
+    @include suffix(letter-spacing, $vm_title_typo_spacing, px);
+    @include suffix(font-style, $vm_title_typo_style, '');
+    @include general(font-weight, $vm_title_typo_weight);
+    @include suffix(text-transform, $vm_title_typo_uppercase, '');
+    @include general(color, $vm_title_color);
+    @include general(background, $vm_title_bg);
+    @include suffix(line-height, $vm_title_height, px);
+    &:hover {
+      @include general(color, $vm_title_color_h);
+      @include general(background, $vm_title_bg_h);
+    }
+  }
+
+  > ul > li > a, > ul > li > span.cbp-main-link {
+    @include suffix(font-size, $vm_typo_size, px);
+    @include suffix(letter-spacing, $vm_typo_spacing, px);
+    @include suffix(font-style, $vm_typo_style, '');
+    @include general(font-weight, $vm_typo_weight);
+    @include suffix(text-transform, $vm_typo_uppercase, '');
+    @include suffix(padding-top, $vm_padding, px);
+    @include suffix(padding-bottom, $vm_padding, px);
+    border-top: $vm_border_i;
+  }
+  > ul > li > a .cbp-mainlink-icon, > ul > li > a .cbp-mainlink-iicon {
+    @include suffix(font-size, $vm_btn_icon_size, px);
+    @include suffix(max-height, $vm_btn_icon_size, px);
+  }
+
+  > ul > li > a, > ul > li > span.cbp-main-link {
+    @include general(color, $vm_btn_color);
+  }
+
+  > ul > li.cbp-hropen > a, > ul > li.cbp-hropen > a:hover {
+    @include general(background, $vm_btn_bg_color_h);
+    @include general(color, $vm_btn_color_h);
+  }
+
+  @if $vm_btn_arrow != 1 {
+    .cbp-submenu-aindicator {
+      display: none;
+    }
+  }
+  .cbp-legend {
+    @include general(background, $vm_legend_bg_color);
+    @include general(color, $vm_legend_color);
+  }
+
+  .cbp-hrsub, > ul, .cbp-hrsub-level2, .cbp-hrsub-wrapper {
+    transition: visibility 300ms ease-in-out, opacity 300ms ease-in-out;
+  }
+
+}
+
+.cbp-vert-expanded{
+  #cbp-hrmenu1 {
+    .cbp-vertical-title {
+        @include general(color, $vm_title_color_h);
+        @include general(background, $vm_title_bg_h);
+    }
+  }
+}
+
+@if $vm_submenu_style == 1 {
+  .cbp-not-on-top #cbp-hrmenu1-ul{
+    position: relative;
+  }
+  .cbp-hrmenu.cbp-vertical .cbp-hrsub-wrapper{
+    top: 0;
+    margin-top: 0px !important;
+    min-height: 100%;
+  }
+  .cbp-hrmenu.cbp-vertical .cbp-hrsub{
+    min-height: 100%;
+  }
+  .cbp-hrmenu.cbp-vertical .cbp-show{
+    -js-display: flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cbp-hrmenu.cbp-vertical .cbp-hrsub-inner{
+    width: 100%;
+  }
+}
+
+/*** SUBMENU ***/
+.cbp-hrmenu .cbp-hrsub{
+  @include suffix(font-size, $msm_typo_size, px);
+  @include suffix(letter-spacing, $msm_typo_spacing, px);
+  @include suffix(font-style, $msm_typo_style, '');
+  @include general(font-weight, $msm_typo_weight);
+  @include suffix(text-transform, $msm_typo_uppercase, '');
+}
+.cbp-hrmenu .cbp-hrsub-inner,
+.cbp-hrmenu ul.cbp-hrsub-level2 {
+  @include general(background, $msm_bg);
+  border: $msm_border;
+  @if $msm_boxshadow != none {
+    box-shadow: $msm_boxshadow;
+  }
+}
+
+.cbp-hrmenu .cbp-hrsub-inner,
+.cbp-hrmenu .cbp-hrsub-inner a, .cbp-hrmenu .cbp-hrsub-inner a:link {
+  @include general(color, $msm_color !important);
+}
+
+.cbp-hrmenu .cbp-hrsub-inner a:hover {
+  @include general(color, $msm_color_h !important);
+}
+
+//tabs
+.cbp-hrmenu .tabs-links{
+  @include general(background, $msm_tabs_bg);
+}
+.cbp-hrmenu .cbp-tabs-names li a {
+  @include general(color, $msm_tabs_color !important);
+}
+
+.cbp-hrmenu .cbp-tabs-names li a:hover,
+.cbp-hrmenu .cbp-tabs-names li a.active {
+  @include general(background, $msm_tabs_bg_h);
+  @include general(color, $msm_tabs_color_h !important);
+}
+
+//listing arrow
+@if $msm_arrows != 1 {
+  .cbp-hrmenu .cbp-links li a:before {
+    display: none;
+  }
+  .cbp-hrmenu .cbp-links li a {
+    padding-left: 0;
+  }
+}
+
+//column titles
+.cbp-hrmenu .cbp-hrsub-inner .cbp-column-title, .cbp-hrmenu .cbp-hrsub-inner a.cbp-column-title:link {
+  @include general(color, $msm_title_color !important);
+  border-bottom: $msm_title_border;
+
+  @if $msm_title_border_type != none {
+    padding-bottom: 8px;
+  }
+  @include suffix(font-size, $msm_title_typo_size, px);
+  @include suffix(letter-spacing, $msm_title_typo_spacing, px);
+  @include suffix(font-style, $msm_title_typo_style, '');
+  @include general(font-weight, $msm_title_typo_weight);
+  @include suffix(text-transform, $msm_title_typo_uppercase, '');
+}
+
+.cbp-hrmenu .cbp-hrsub-inner a.cbp-column-title:hover {
+  @include general(color, $msm_title_color_h !important);
+}

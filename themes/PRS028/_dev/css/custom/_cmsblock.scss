@@ -1,0 +1,74 @@
+.parallax-content {
+	position: relative;
+	.parallax_title {
+		font-family: 'Arizonia', cursive;
+		font-size: 50px;
+		line-height: 50px;
+		color: #fdbe00;
+		font-style: italic;
+	}
+	.parallax_subtitle {
+		font-size: 60px;
+		color: #fff;
+		letter-spacing: .4px;
+		line-height: normal;
+		font-weight: bold;
+		position: relative;
+		z-index: 1;
+		text-shadow: 2px 0 0 #232323,-2px 0 0 #232323,0 2px 0 #232323,0 -2px 0 #232323,1px 1px #232323,-1px -1px 0 #232323,1px -1px 0 #232323,-1px 1px 0 #232323;
+	}
+	.parallax_desc {
+		background: #598107;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;	
+		padding: 30px 15px 15px 15px;
+		max-width: 600px;
+		margin-top: -25px;
+		text-transform: uppercase;
+		letter-spacing: .8px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.parallax_button {
+		display: block;
+		margin-top: 20px;
+		.shop_now {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			border-bottom: 1px solid #fff;
+			padding: 10px 15px;
+			font-weight: 600;
+			text-transform: capitalize;
+			color: #fff;
+			position: relative;
+			&:after {
+				font-family: 'Material Icons';
+				content: '\e5c8';
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				margin-left: 5px;
+				font-size: 16px;
+			}
+		}
+	}
+}
+.parallax_subtitle {
+	.elementor-heading-title {
+		line-height: normal;
+		position: relative;
+		z-index: 1;
+	}	
+}
+.parallax_desc {
+	.elementor-widget-container {
+		p {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;	
+			max-width: 600px;
+		}
+	}
+}

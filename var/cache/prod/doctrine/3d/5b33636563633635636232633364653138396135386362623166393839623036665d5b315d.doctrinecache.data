@@ -1,0 +1,17 @@
+1589393950
+s:3302:"HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 13 May 2020 16:19:12 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block;
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=604800
+Feature-Policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self';
+X-Backend-Server: vm2731.jn-hebergement.com
+
+{"modules":[{"id":"24547","name":"ps_emailalerts","displayName":"Mail alerts","categoryName":"E-mails y Notificaciones","description":"Make your everyday life easier, handle mail alerts about stock and orders, addressed to you as well as your customers","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/es\/emails-notificaciones\/24547-mail-alerts.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-ES&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/24547.jpg","fullDescription":"Make your everyday life easier, handle mail alerts about stock and orders, addressed to you as well as your customers.","additionalDescription":"Use this native module to:\r\n<ul>\r\n\t<li><strong>Boost your sales:<\/strong> your business remains on the alert when you recall stock and orders to your visitors, it will stimulate their shopping.<\/li>\r\n\t<li><strong>Handle your stock:<\/strong> keep an eye on the products that can soon be out-of-stock.<\/li>\r\n<\/ul>\r\n","features":"Optimize your stock management and order processing by configuring the following alerts:<br \/>\r\n<br \/>\r\nCustomer notifications:<br \/>\r\n&nbsp;\r\n<ul>\r\n\t<li>Product Availability: when you enable this setting, a field appears on the product page of your shop when the product is out of stock and if you disallow order of out of stock products. It asks your customers to leave their contact information so that they may be contacted when your shop will have this product back in stock.<\/li>\r\n<\/ul>\r\n<br \/>\r\nMerchant notifications:<br \/>\r\n&nbsp;\r\n<ul>\r\n\t<li>New order: enable this setting if you wish to be alerted of each new order.<\/li>\r\n\t<li>Out of stock: enable this setting and set the threshold with the value at which you wish to be alerted (default is 3).<\/li>\r\n<\/ul>\r\n<br \/>\r\nMerchant mail alerts can be sent to multiple addresses at the same time. To do so, list each email address that will receive the notification - one email address per line.","customer_benefits":"","demo_video":"","version":"2.1.1","last_update":"2020-05-12 12:07:24","compatibility":{"from":"1.7.1.0","to":"1.7.7.0"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias2.prestastore.com\/1295018-pprod\/mail-alerts.jpg","big":"https:\/\/medias2.prestastore.com\/1295018-pbig\/mail-alerts.jpg"}}]}";

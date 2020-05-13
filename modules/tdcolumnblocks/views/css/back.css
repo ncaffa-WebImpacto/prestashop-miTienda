@@ -1,0 +1,25 @@
+/**
+*  @author    ThemeDelights
+*  @copyright 2015-2019 ThemeDelights. All Rights Reserved.
+*  @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+*/
+
+.radio-inline-block .radio {
+    display: inline-block;
+    margin-right: 10px;
+}
+.defaultForm {
+    clear: both;
+}
+.bootstrap.panel {
+    clear: both;
+}
+.bootstrap .form-group {
+    margin-bottom: 20px;
+}
+.bootstrap .form-group .form-group {
+    margin-bottom: 0;
+}
+.bootstrap .prestashop-switch {
+    margin-top: 0;
+}

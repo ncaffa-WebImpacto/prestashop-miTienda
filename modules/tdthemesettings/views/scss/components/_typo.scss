@@ -1,0 +1,40 @@
+html{
+  @include suffix(font-size, $typo_bfont_size, px);
+
+  @media (max-width: 767px){
+    @include suffix(font-size, $typo_bfont_size_m, px);
+  }
+}
+body{
+  @include suffix(line-height, $typo_bfont_lineheight, px);
+}
+
+body{
+  @if $typo_bfont_t == google {
+    @include general(font-family, $typo_bfont_g_name);
+  } @else if $typo_bfont_t == system {
+      @include general(font-family, $typo_bfont_s_name);
+  } @else if $typo_bfont_t == custom {
+      @include general(font-family, $typo_bfont_c_name);
+  }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .block-title, .page-title, .modal-title, .step-title{
+  @if $typo_hfont_t == google {
+    @include general(font-family, $typo_hfont_g_name);
+  } @else if $typo_hfont_t == system {
+    @include general(font-family, $typo_hfont_s_name);
+  } @else if $typo_hfont_t == custom {
+    @include general(font-family, $typo_hfont_c_name);
+  }
+}
+
+.homepage-heading, .productpage-heading {
+  @if $typo_tfont_t == google {
+    @include general(font-family, $typo_tfont_g_name);
+  } @else if $typo_tfont_t == system {
+    @include general(font-family, $typo_tfont_s_name);
+  } @else if $typo_tfont_t == custom {
+    @include general(font-family, $typo_tfont_c_name);
+  }
+}

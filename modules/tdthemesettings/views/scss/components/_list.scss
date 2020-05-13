@@ -1,0 +1,282 @@
+.owl-nav {
+  > div {
+    @include general(background, $pl_crsl_bg);
+    @include general(color, $pl_crsl_txt);
+    border: $pl_crsl_border;
+    &:hover {
+      @include general(background, $pl_crsl_bg_h);
+      @include general(color, $pl_crsl_txt_h);
+      @include general(border-color, $pl_crsl_border_h);
+    }
+  }
+}
+.owl-dots {
+  .owl-dot {
+    span {
+      @include general(background, $pl_crsl_dot_bg);
+      border: $pl_crsl_dot_border;
+    }
+    &.active,
+    &:hover {
+      span {
+        @include general(background, $pl_crsl_dot_bg_h);
+        @include general(border-color, $pl_crsl_dot_border_h);
+      }
+    }
+  }
+}
+
+$pl_grid_margin: 0 !default;
+.products.row {
+  @include suffix(margin-left, -$pl_grid_margin, px);
+  @include suffix(margin-right, -$pl_grid_margin, px);
+  > .col,
+  > [class*="col-"] {
+    @include suffix(padding, $pl_grid_margin, px);
+  }
+  .owl-carousel .product-miniature {
+    @include suffix(padding, $pl_grid_margin, px);
+  }
+}
+@media (max-width: 543px) {
+  $pl_grid_margin_responsive: 5 !default;
+  .products.row {
+    @include suffix(margin-left, -$pl_grid_margin_responsive, px);
+    @include suffix(margin-right, -$pl_grid_margin_responsive, px);
+    > .col,
+    > [class*="col-"] {
+      @include suffix(padding, $pl_grid_margin_responsive, px);
+    }
+    .owl-carousel .product-miniature {
+      @include suffix(padding, $pl_grid_margin_responsive, px);
+    }
+  }
+}
+.product-miniature {
+  .product-container {
+    @include suffix(padding, $pl_grid_padding, px);
+    border: $pl_grid_b_border;
+    @if $pl_grid_b_boxshadow != none {
+      box-shadow: $pl_grid_b_boxshadow;
+    }
+    @if $pl_grid_b_colors == 1 {
+      @include general(background, $pl_grid_b_bg);
+      @include general(color, $pl_grid_b_text);
+      a {
+        @include general(color, $pl_grid_b_text);
+      }
+      .price {
+        @include general(color, $pl_grid_b_price);
+      }
+      .regular-price {
+        @include general(color, $pl_grid_b_oldprice);
+      }
+      .star {
+        &:after {
+          @include general(color, $pl_grid_b_rating);
+        }
+      }
+    }
+    .product-title {
+      @include suffix(font-size, $pl_grid_name_font_size, px);
+      @include suffix(letter-spacing, $pl_grid_name_font_spacing, px);
+      @include suffix(font-style, $pl_grid_name_font_style, "");
+      @include general(font-weight, $pl_grid_name_font_weight);
+      @include suffix(text-transform, $pl_grid_name_font_uppercase, "");
+      @if $pl_grid_name_trnc == 1 {
+        @include text-truncate();
+      }
+    }
+    .product-price-and-shipping {
+      @include suffix(font-size, $pl_grid_price_font_size, px);
+    }
+    .price {
+      @include suffix(font-size, $pl_grid_price_font_size, px);
+      @include suffix(letter-spacing, $pl_grid_price_font_spacing, px);
+      @include suffix(font-style, $pl_grid_price_font_style, "");
+      @include general(font-weight, $pl_grid_price_font_weight);
+      @include suffix(text-transform, $pl_grid_price_font_uppercase, "");
+    }
+    &:hover {
+      @include general(border-color, $pl_grid_bh_border_c);
+      @if $pl_grid_bh_boxshadow != none {
+        box-shadow: $pl_grid_bh_boxshadow;
+      }
+      @if $pl_grid_bh_colors == 1 {
+        @include general(background, $pl_grid_bh_bg);
+        @include general(color, $pl_grid_bh_text);
+        a {
+          @include general(color, $pl_grid_bh_text);
+        }
+        .price {
+          @include general(color, $pl_grid_bh_price);
+        }
+        .regular-price {
+          @include general(color, $pl_grid_bh_oldprice);
+        }
+        .star {
+          &:after {
+            @include general(color, $pl_grid_bh_rating);
+          }
+        }
+      }
+    }
+  }
+}
+#product-list {
+  .products {
+    .product-miniature {
+      &.list {
+        &:hover {
+          @if $p_list_boxshadow != none {
+            box-shadow: $p_list_boxshadow;
+          }
+          @media (max-width: 543px) {
+            box-shadow: none;
+          }
+        }
+        .right-block {
+          .product-add-to-cart {
+            .btn-primary {
+              @include general(background, $p_list_c_bg);
+              @include general(color, $p_list_c_color);
+              border: $p_list_c_border;
+              &:hover {
+                @include general(background, $p_list_c_bg_h);
+                @include general(color, $p_list_c_color_h);
+                @include general(border-color, $p_list_c_border_h);
+              }
+            }
+          }
+          .product-functional-buttons {
+            .btn-primary {
+              @include general(color, $p_list_color);
+              &:hover, &.added {
+                @include general(color, $p_list_color_h);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.products {
+  .product-miniature {
+    &.style-1, &.style-2 {
+      .button-container .btn-primary {
+        @include general(background, $pl_functional_bg);
+        @include general(color, $pl_functional_color);
+        border: $pl_functional_border;
+        @include suffix(border-radius, $pl_functional_btnradius, px);
+        &:hover, &.added {
+          @include general(background, $pl_functional_bg_h);
+          @include general(color, $pl_functional_color_h);
+          @include general(border-color, $pl_functional_border_h);
+        }
+      }
+      /* .product-add-to-cart {
+      .btn-primary {
+        @include general(background, $pl_cart_btn_bg);
+        @include general(color, $pl_cart_btn_color);
+        border: $pl_cart_btn_border;
+        &:hover {
+          @include general(background, $pl_cart_btn_bg_h);
+          @include general(color, $pl_cart_btn_color_h);
+          @include general(border-color, $pl_cart_btn_border_h);
+        }
+      }
+    } */
+    }
+  }
+}
+.products {
+  .product-miniature {
+    .product-container {
+      @if $pl_grid_colors == null or $pl_grid_colors == 0 {
+        .variant-links {
+          display: none !important;
+        }
+      }
+    }
+    &.style-1, &.style-2, &.style-3 {
+      .product-container {
+        .button-container {
+          @if $pl_grid_func_btn != 1 {
+            display: none;
+          }
+          @if $pl_grid_func_btn_r != 1 {
+            @media (max-width: 767px) {
+              display: none;
+            }
+          }
+          @if $pl_grid_qv_btn_r != 1 {
+            @media (max-width: 543px) {
+              .quick-view-wrapper {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    //style-3
+    &.style-3 {
+      .product-container {
+        .quick-view-wrapper {
+          .btn-primary {
+            @include general(color, $pl_s3_qv_color);
+            &:hover {
+              @include general(color, $pl_s3_qv_color_h);
+            }
+          }
+        }
+        .button-container {
+          .btn-inner {
+            @include general(background, $pl_s3_bg);
+          }
+          .wishlist {
+            @include general(border-color, $pl_s3_border_color);
+          }
+          .btn-primary {
+            @include general(color, $pl_s3_color);
+            &:hover, &.added  {
+              @include general(color, $pl_s3_color_h);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+img.lazyload {
+  @include general(background-color, $pl_lazycolor);
+  @if $pl_lazyimg != null {
+    background-image: $pl_lazyimg;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+  }
+}
+table#product_comparison {
+  .product-title {
+    @include suffix(font-size, $pl_grid_name_font_size, px);
+    @include suffix(letter-spacing, $pl_grid_name_font_spacing, px);
+    @include suffix(font-style, $pl_grid_name_font_style, "");
+    @include general(font-weight, $pl_grid_name_font_weight);
+    @include suffix(text-transform, $pl_grid_name_font_uppercase, "");
+    @if $pl_grid_name_trnc == 1 {
+      @include text-truncate();
+    }
+  }
+  .product-price-and-shipping {
+    @include suffix(font-size, $pl_grid_price_font_size, px);
+  }
+  .price {
+    @include suffix(font-size, $pl_grid_price_font_size, px);
+    @include suffix(letter-spacing, $pl_grid_price_font_spacing, px);
+    @include suffix(font-style, $pl_grid_price_font_style, "");
+    @include general(font-weight, $pl_grid_price_font_weight);
+    @include suffix(text-transform, $pl_grid_price_font_uppercase, "");
+  }
+}

@@ -1,0 +1,46 @@
+#tdthreesixty-images-dropzone > .dz-default.dz-message i {
+  font-size: 60px;
+  color: #bbcdd2;
+  opacity: .5;
+  filter: alpha(opacity=50); }
+
+#tdthreesixty-images-dropzone > .dz-default.dz-message a {
+  font-weight: 700; }
+
+#tdthreesixty-images-dropzone > .dz-default.dz-message small {
+  font-size: 12px;
+  font-style: italic;
+  color: #6c868e; }
+
+#tdthreesixty-images-dropzone.dropzone > .dz-preview {
+  border: 1px solid #bbcdd2; }
+  #tdthreesixty-images-dropzone.dropzone > .dz-preview:hover {
+    border: 1px solid #25b9d7;
+    border-radius: 3px; }
+
+#tdthreesixty-images-dropzone.dropzone > .dz-preview .dz-details {
+  display: none; }
+
+#tdthreesixty-images-dropzone.dropzone > .dz-preview .dz-image {
+  border-radius: 0;
+  line-height: 130px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%; }
+  #tdthreesixty-images-dropzone.dropzone > .dz-preview .dz-image img {
+    max-width: 100%; }
+
+#tdthreesixty-images-dropzone.dropzone .dz-image-preview {
+  cursor: move;
+  cursor: -webkit-grabbing; }
+  #tdthreesixty-images-dropzone.dropzone .dz-image-preview:hover .dz-image img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px); }
+  #tdthreesixty-images-dropzone.dropzone .dz-image-preview .dz-remove-custom {
+    text-align: center;
+    display: block; }
+
+#tdthreesixty-images-dropzone.dropzone.dz-started .dz-message {
+  display: block; }

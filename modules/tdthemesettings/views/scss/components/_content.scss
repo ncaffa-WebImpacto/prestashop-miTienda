@@ -1,0 +1,142 @@
+@import 'list';
+@import 'product';
+
+.elementor-editor-active {
+  .breadcrumb[data-depth="1"] {
+    display: none;
+  }
+}
+
+#wrapper{
+  background: $cw_background;
+  border-top: $cw_border;
+  border-bottom: $cw_border;
+  @include suffix(padding-top, $cw_padding_tb, px);
+  @include suffix(padding-bottom, $cw_padding_tb, px);
+  @include general(color, $c_txt_color);
+  #index &, #module-bitelementor-Preview & {
+    $cw_index_padding_tb: 0 !default;
+    @include suffix(padding-top, $cw_index_padding_tb, px);
+    @include suffix(padding-bottom, $cw_index_padding_tb, px);
+  }
+}
+
+.page-maintitle {
+  @include general(color, $c_page_title_color);
+  @include suffix(font-size, $c_page_title_typo_size, px);
+  @include suffix(letter-spacing, $c_page_title_typo_spacing, px);
+  @include suffix(font-style, $c_page_title_typo_style, '');
+  @include general(font-weight, $c_page_title_typo_weight);
+  @include suffix(text-transform, $c_page_title_typo_uppercase, '');
+  @media (max-width: 991px) {
+    @include suffix(font-size, $c_page_title_size_r, px);    
+  }
+}
+
+.products-section-title, .blogs-section-title, .homepage-heading {
+  @include general(color, $c_block_title_color);
+  @include suffix(font-size, $c_block_title_typo_size, px);
+  @include suffix(letter-spacing, $c_block_title_typo_spacing, px);
+  @include suffix(font-style, $c_block_title_typo_style, '');
+  @include general(font-weight, $c_block_title_typo_weight);
+  @include suffix(text-transform, $c_block_title_typo_uppercase, '');
+  @media (max-width: 991px) {
+    @include suffix(font-size, $c_block_title_size_r, px);
+  }
+}
+.elementor-products-tabs {
+  .nav-tabs {
+    .nav-link {
+      @include general(background, $c_tabs_bg);
+      @include general(color, $c_tabs_txt);
+      border: $c_tabs_border;
+      @include suffix(font-size, $c_tabs_typo_size, px);
+      @include suffix(letter-spacing, $c_tabs_typo_spacing, px);
+      @include suffix(font-style, $c_tabs_typo_style, '');
+      @include general(font-weight, $c_tabs_typo_weight);
+      @include suffix(text-transform, $c_tabs_typo_uppercase, '');
+      &.active, &:hover, &:focus, &:active {
+        @include general(background, $c_tabs_bg_h);
+        @include general(color, $c_tabs_txt_h);
+        @include general(border-color, $c_tabs_border_h);
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  a.nav-tabs-dropdown {
+    @include general(background, $c_tabs_bg_h);
+    @include general(color, $c_tabs_txt_h);
+    border: $c_tabs_border_h;
+    @include suffix(font-size, $c_tabs_typo_size, px);
+    @include suffix(letter-spacing, $c_tabs_typo_spacing, px);
+    @include suffix(font-style, $c_tabs_typo_style, '');
+    @include general(font-weight, $c_tabs_typo_weight);
+    @include suffix(text-transform, $c_tabs_typo_uppercase, '');
+    &.open, &.active, &:hover, &:focus, &:active {
+      @include general(background, $c_tabs_bg_h);
+      @include general(color, $c_tabs_txt_h);
+      @include general(border-color, $c_tabs_border_h);
+    }
+  }
+}
+
+#left-column, #right-column{
+  .block{
+    @include general(background, $sb_block_bg);
+    border: $sb_block_border;
+    @include suffix(padding-top, $sb_block_padding_top, px);
+    @include suffix(padding-right, $sb_block_padding_right, px);
+    @include suffix(padding-bottom, $sb_block_padding_bottom, px);
+    @include suffix(padding-left, $sb_block_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-top, $sb_block_padding_r_top, px);
+      @include suffix(padding-right, $sb_block_padding_r_right, px);
+      @include suffix(padding-bottom, $sb_block_padding_r_bottom, px);
+      @include suffix(padding-left, $sb_block_padding_r_left, px);
+    }
+    .lang-rtl & {
+      @include suffix(padding-left, $sb_block_padding_right, px);
+      @include suffix(padding-right, $sb_block_padding_left, px);
+      @media (max-width: 991px) {
+        @include suffix(padding-left, $sb_block_padding_r_right, px);
+        @include suffix(padding-right, $sb_block_padding_r_left, px);
+      }
+    }
+  }
+  .title_block,
+  .title_block a {
+    @include general(background, $sb_block_title_bg);
+    @include general(color, $sb_block_title_color);
+    @include suffix(font-size, $sb_block_title_typo_size, px);
+    @include suffix(letter-spacing, $sb_block_title_typo_spacing, px);
+    @include suffix(font-style, $sb_block_title_typo_style, '');
+    @include general(font-weight, $sb_block_title_typo_weight);
+    @include suffix(text-transform, $sb_block_title_typo_uppercase, '');
+    @include suffix(padding-top, $sb_block_title_padding_top, px);
+    @include suffix(padding-right, $sb_block_title_padding_right, px);
+    @include suffix(padding-bottom, $sb_block_title_padding_bottom, px);
+    @include suffix(padding-left, $sb_block_title_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-top, $sb_block_title_padding_r_top, px);
+      @include suffix(padding-right, $sb_block_title_padding_r_right, px);
+      @include suffix(padding-bottom, $sb_block_title_padding_r_bottom, px);
+      @include suffix(padding-left, $sb_block_title_padding_r_left, px);
+    }
+    .lang-rtl & {
+      @include suffix(padding-left, $sb_block_title_padding_right, px);
+      @include suffix(padding-right, $sb_block_title_padding_left, px);
+      @media (max-width: 991px) {
+        @include suffix(padding-left, $sb_block_title_padding_r_right, px);
+        @include suffix(padding-right, $sb_block_title_padding_r_left, px);
+      }
+    }
+  }
+}
+
+#search_filters .facet .faceted-slider .ui-slider .ui-slider-range {
+  @include general(background, $sb_facet_slider_color);
+}
+#search_filters .facet .faceted-slider .ui-slider .ui-slider-handle {
+  @include general(border-color, $sb_facet_slider_color);
+}

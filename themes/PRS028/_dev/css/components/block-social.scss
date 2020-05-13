@@ -1,0 +1,38 @@
+.social-sharing{
+  @extend .d-flex;
+  @extend .flex-wrap;
+}
+.social-sharing--product{
+  margin: $spacer 0;
+  @extend .align-items-center;
+}
+.modal .social-sharing--product{
+  margin: 0;
+}
+
+.social-share-btn{
+  width: $social-share-size;
+  height: $social-share-size;
+  display: block;
+  margin: 0 $spacer/2;
+  background-color: $social-share-bg-color;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.social-share-btn--product{
+  background-size:80%;
+  background-color: #fff;
+  @extend .shadow-sm;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease-in-out;
+  &:hover{
+    @extend .shadow;
+
+  }
+}
+.social-share-btn--footer {
+  transition: background-color 0.3s ease-in-out;
+  &:hover{
+    background-color: theme-color('primary');
+  }
+}

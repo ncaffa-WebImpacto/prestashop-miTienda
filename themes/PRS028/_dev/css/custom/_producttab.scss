@@ -1,0 +1,58 @@
+.elementor-products-tabs {
+	@include media-breakpoint-up(lg) { /* min 992 */
+		.nav-tabs{
+			margin-top: 28px;
+			margin-bottom: 20px;
+		}
+	}
+}
+// responsive tabs
+@include media-breakpoint-down(md) { /* max 991 */
+	.box-nav-tab {
+		position: relative;
+		border: none;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		.dropdown-toggle-nav-tab {
+			position: relative;
+			cursor: pointer;
+			border-radius: 4px;
+			line-height: 18px;
+			&:after {
+				content: "\e5c5";
+				font-size: 20px;
+				margin-left: 10px;
+				font-family: "Material Icons";
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				position: absolute;
+				right: 10px;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+			}
+		}
+		.dropdown-menu-nav-tab {
+			position: absolute;
+			z-index: 2;
+			width: 100%;
+			display: none;
+			&.active {
+				display: block;
+			}
+			.nav-item {
+				clear: both;
+				width: 100%;
+				.nav-link {
+					display: block;
+				}
+				&:last-child {
+					.nav-link {
+						border:0;
+					}
+				}
+			}
+		}
+	}
+}

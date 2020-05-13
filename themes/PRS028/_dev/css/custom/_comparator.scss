@@ -1,0 +1,240 @@
+#module-tdcompare-compare {
+  .page-header {
+    margin: 0 0 20px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    h1 {
+      border: 0;
+      padding: 0;
+    }
+  }
+}
+table#product_comparison {
+  border: 1px solid $border-color;
+  th,
+  td {
+    border-color: $border-color;
+  }
+  tbody {
+    tr {
+      td.product-block {
+        vertical-align: top;
+        padding: 15px;
+        text-align: center;
+      }
+      td.td_empty,
+      td.feature-name,
+      &.comparison_header {
+        background: $gray-lighter;
+        color: $gray;
+      }
+      td.comparison_infos {
+        text-align: center;
+        background: transparent;
+      }
+      td.td_empty {
+        vertical-align: bottom;
+        > span {
+          font-size: 18px;
+          line-height: 22px;
+          font-weight: 600;
+          text-transform: uppercase;
+          color: #555454;
+        }
+      }
+    }
+  }
+  .remove {
+    padding: 0 0 15px 0;
+    a {
+      font-size: 23px;
+      line-height: 23px;
+    }
+  }
+  .thumbnail-container {
+    display: inline-block;
+    position: relative;
+    .product-thumbnail {
+      padding: 5px;
+      border: 1px solid $border-color;
+      display: inline-block;
+      margin: 0 0 10px 0;
+      img {
+        width: 100%;
+        max-width: 250px;
+      }
+    }
+  }
+  .product-title {
+    margin: 0;
+    line-height: 20px;
+  }
+  .product-price-and-shipping {
+    margin-top: 10px;
+    > span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .regular-price {
+      font-size: 90%;
+      text-decoration: line-through;
+    }
+    .discount-percentage {
+      font-weight: normal;
+      line-height: 10px;
+      margin: 0 5px;
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
+  .product-desc,
+  .highlighted-informations {
+    margin: 10px 0 0;
+  }
+  .highlighted-informations {
+    position: relative;
+    transform: none;
+    bottom: auto;
+    transition: none;
+    text-align: center;
+    .variant-links {
+	  justify-content: center;
+	  align-items: center;
+	  .count {
+		  margin-left: 4px;
+	  }
+    }
+  }
+  .product-add-to-cart {
+    margin-top: 15px;
+  }
+  .product-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+.footer_link {
+  margin: 0 0 20px 0;
+}
+
+.modal-dialog {
+  .modal-header {
+    .modal-msg {
+      font-size: 16px;
+      line-height: 20px;
+      color: $base-heading-color;
+    }
+  }
+  .modal-footer {
+    text-align: center;
+    button {
+      margin: 0 5px;
+    }
+  }
+}
+
+/**** responsive code ******/
+
+@include media-breakpoint-down(md) {
+  /* max 991 */
+  table#product_comparison {
+    tbody tr td.td_empty span {
+      font-size: 14px;
+    }
+    tbody tr td.product-block {
+      padding: 10px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  /* max 767 */
+  #product_comparison table,
+  #product_comparison thead,
+  #product_comparison tbody,
+  #product_comparison th,
+  #product_comparison td,
+  #product_comparison tr {
+    display: block;
+  }
+
+  #product_comparison thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #product_comparison tr {
+    overflow: hidden;
+    &:last-child {
+      border-bottom: none;
+      td {
+        border-bottom: none;
+      }
+    }
+  }
+
+  #product_comparison td {
+    border: none;
+    position: relative;
+    white-space: normal;
+    float: left;
+    width: 33.33%;
+    .lang-rtl & {
+      float: right;
+    }
+    &.feature-name {
+      width: 100%;
+      text-align: center;
+    }
+    &.td_empty {
+      width: 100% !important;
+      clear: both;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  #product_comparison {
+    .comparison_feature {
+      .feature-name {
+        width: 100%;
+        float: none;
+        clear: both;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  /* max 543 */
+  #product_comparison td {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #product_comparison {
+    .comparison_feature {
+      td {
+        float: left;
+        width: 50%;
+      }
+      .feature-name {
+        width: 100%;
+        clear: both;
+      }
+      .product-name {
+        width: 50%;
+        float: left;
+        display: block;
+      }
+    }
+  }
+}

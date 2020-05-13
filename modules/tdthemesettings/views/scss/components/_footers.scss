@@ -1,0 +1,213 @@
+#footer {
+  background: $f_background;
+  .block_newsletter {
+    .newsletter_form_wrap {
+      .input-wrapper .newsletter-input {
+        border: $f_input_border;
+        @include general(background, $f_input_bg);
+        @include general(color, $f_input_txt);
+      }
+      button{
+        @include general(color, $f_input_btn);
+        @include general(background, $f_input_btn_bg);
+        &:hover {
+          @include general(color, $f_input_btn_h);
+          @include general(background, $f_input_btn_bg_h);
+        }
+      }
+    }
+    .newsletter-input::-webkit-input-placeholder {
+      @include general(color, $f_input_txt);
+    }
+    .newsletter-input::-moz-placeholder {
+      @include general(color, $f_input_txt);
+    }
+    .newsletter-input:-ms-input-placeholder {
+      @include general(color, $f_input_txt);
+    }
+    .newsletter-input:-moz-placeholder {
+      @include general(color, $f_input_txt);
+    }
+  }
+  .block-social {
+    ul {
+      li {
+        a {
+          @if $f_social_c_t == 1 {
+            @include general(color, $f_social_txt);
+          }
+          &:hover {
+            @if $f_social_c_t_h == 1 {
+              @include general(color, $f_social_txt_h);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer-container-before {
+  background: $ft_background;
+  border-top: $ft_border;
+  @include general(color, $ft_text);
+  @include suffix(padding-top, $ft_padding_top, px);
+  @include suffix(padding-right, $ft_padding_right, px);
+  @include suffix(padding-bottom, $ft_padding_bottom, px);
+  @include suffix(padding-left, $ft_padding_left, px);
+  @media (max-width: 991px) {
+    @include suffix(padding-top, $ft_padding_r_top, px);
+    @include suffix(padding-right, $ft_padding_r_right, px);
+    @include suffix(padding-bottom, $ft_padding_r_bottom, px);
+    @include suffix(padding-left, $ft_padding_r_left, px);
+  }
+  .lang-rtl & {
+    @include suffix(padding-left, $ft_padding_right, px);
+    @include suffix(padding-right, $ft_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-left, $ft_padding_r_right, px);
+      @include suffix(padding-right, $ft_padding_r_left, px);
+    }
+  }
+  .title_block {
+    @include general(color, $ft_text);
+  }
+  a {
+    @include general(color, $ft_link);
+    &:hover {
+      @include general(color, $ft_link_h);
+    }
+  }
+}
+.footer-container{
+  border-top: $f_border;
+  @include suffix(padding-top, $f_padding_top, px);
+  @include suffix(padding-right, $f_padding_right, px);
+  @include suffix(padding-bottom, $f_padding_bottom, px);
+  @include suffix(padding-left, $f_padding_left, px);
+  @include general(color, $f_text);
+  @media (max-width: 991px) {
+    @include suffix(padding-top, $f_padding_r_top, px);
+    @include suffix(padding-right, $f_padding_r_right, px);
+    @include suffix(padding-bottom, $f_padding_r_bottom, px);
+    @include suffix(padding-left, $f_padding_r_left, px);
+  }
+  .lang-rtl & {
+    @include suffix(padding-left, $f_padding_right, px);
+    @include suffix(padding-right, $f_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-left, $f_padding_r_right, px);
+      @include suffix(padding-right, $f_padding_r_left, px);
+    }
+  }
+  a {
+    @include general(color, $f_link);
+    &:hover {
+      @include general(color, $f_link_h);
+    }
+  }
+  .title_block {
+    position: relative;
+    @if $f_block_title_position == 'center' {
+      @include suffix(text-align, $f_block_title_position, '');
+    }
+    @if $f_block_title_position == 'left' {
+      @include suffix(text-align, $f_block_title_position, '');
+    }
+    @include general(color, $f_block_title_color);
+    @include suffix(font-size, $f_block_title_typo_size, px);
+    @include suffix(letter-spacing, $f_block_title_typo_spacing, px);
+    @include suffix(font-style, $f_block_title_typo_style, '');
+    @include general(font-weight, $f_block_title_typo_weight);
+    @include suffix(text-transform, $f_block_title_typo_uppercase, '');
+    a {
+      @include general(color, $f_block_title_color);
+    }
+    //title-layout-1
+    @if $f_block_title_layout == 1 {
+      border-bottom: $f_block_title_border;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      display: inline-block;
+      vertical-align: middle;
+      @media (max-width: 991px) {
+        margin-bottom: 0;
+        width: 100%;
+        border:none;
+      }
+    }
+
+    //title-layout-2
+    @if $f_block_title_layout == 2 {
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      display: block;
+      @media (max-width: 991px) {
+        margin-bottom: 15px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        @include general(bottom, titleBottomCalc($f_block_title_border_width));
+        display: block;
+        width: 30px;
+        height: 1px;
+        border-bottom: $f_block_title_border;
+        left: 0;
+        right: 0;
+        @if $f_block_title_position == center {
+          margin: auto;
+        }
+      }
+    }
+  }
+  .footer-container-after {
+    border-top: $fa_border;
+    @include suffix(padding-top, $fa_padding_top, px);
+    @include suffix(padding-right, $fa_padding_right, px);
+    @include suffix(padding-bottom, $fa_padding_bottom, px);
+    @include suffix(padding-left, $fa_padding_left, px);
+    @include suffix(margin-top, $fa_mpadding_top, px);
+    @include suffix(margin-right, $fa_mpadding_right, px);
+    @include suffix(margin-bottom, $fa_mpadding_bottom, px);
+    @include suffix(margin-left, $fa_mpadding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-top, $fa_padding_r_top, px);
+      @include suffix(padding-right, $fa_padding_r_right, px);
+      @include suffix(padding-bottom, $fa_padding_r_bottom, px);
+      @include suffix(padding-left, $fa_padding_r_left, px);
+      @include suffix(margin-top, $fa_mpadding_r_top, px);
+      @include suffix(margin-right, $fa_mpadding_r_right, px);
+      @include suffix(margin-bottom, $fa_mpadding_r_bottom, px);
+      @include suffix(margin-left, $fa_mpadding_r_left, px);
+    }
+  }
+}
+.footer-bottom {
+  border-top: $fc_border;
+  @include general(background, $fc_background);
+  @include general(color, $fc_text);
+  @include suffix(padding-top, $fc_padding_top, px);
+  @include suffix(padding-right, $fc_padding_right, px);
+  @include suffix(padding-bottom, $fc_padding_bottom, px);
+  @include suffix(padding-left, $fc_padding_left, px);
+  @media (max-width: 991px) {
+    @include suffix(padding-top, $fc_padding_r_top, px);
+    @include suffix(padding-right, $fc_padding_r_right, px);
+    @include suffix(padding-bottom, $fc_padding_r_bottom, px);
+    @include suffix(padding-left, $fc_padding_r_left, px);
+  }
+  .lang-rtl & {
+    @include suffix(padding-left, $fc_padding_right, px);
+    @include suffix(padding-right, $fc_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-left, $fc_padding_r_right, px);
+      @include suffix(padding-right, $fc_padding_r_left, px);
+    }
+  }
+  a {
+    @include general(color, $fc_link);
+    &:hover {
+      @include general(color, $fc_link_h);
+    }
+  }
+}

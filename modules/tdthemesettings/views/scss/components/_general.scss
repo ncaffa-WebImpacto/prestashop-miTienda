@@ -1,0 +1,85 @@
+body.boxed {
+  main {
+    border: $g_border;
+    overflow: hidden;
+    max-width: 1230px;
+    position: relative;
+    $g_margin_tb: null !default;
+    @include suffix(max-width, $g_max_width, px);
+    @if $g_margin_tb != null {
+      margin: auto;
+      @include suffix(margin-top, $g_margin_tb, px);
+      @include suffix(margin-bottom, $g_margin_tb, px);
+    } @else{
+      margin: 0 auto;
+    }
+    @if $g_boxshadow != none {
+      box-shadow: $g_boxshadow;
+    }
+   /*  #header {
+      max-width: 1230px;
+      left:0;
+      right: 0;
+      margin:auto;
+    } */
+    @media (min-width: 1200px) and (max-width: 1260px) {
+      max-width: 1150px;
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      max-width: 950px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      max-width: 750px;
+    }
+    @media (max-width: 767px) {
+      max-width: calc(100% - 20px);
+    }
+  }
+}
+.container, .elementor-section.elementor-section-boxed>.elementor-container {
+  @include general(max-width, $g_max_width);
+}
+body{
+  background: $g_background;
+  @include general(color, $c_txt_color);
+}
+
+a {
+  @include general(color, $c_link_color);
+}
+a:hover, a:focus, a:active, a.active {
+  @include general(color, $c_link_hover);
+}
+.pagination {
+  .page-list {
+    li {
+     &.current, &:hover {
+      @include general(border-color, $c_link_hover);
+      a {
+          @include general(color, $c_link_hover);
+        }
+      }
+    }
+  }
+}
+.blog_pagination {
+  .pagination {
+    .pagination_bottom {
+      li {
+        &.current, &:hover {
+           @include general(border-color, $c_link_hover);
+          a {
+            @include general(color, $c_link_hover);
+          }
+        }
+      }
+    }
+  }
+}
+#grid, #list {
+  &.selected {
+    a {
+      @include general(color, $c_link_hover);
+    }
+  }
+}

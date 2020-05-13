@@ -1,0 +1,57 @@
+.breadcrumb{
+  background: $bc_background;
+  @include suffix(padding-top, $bc_padding_top, px);
+  @include suffix(padding-right, $bc_padding_right, px);
+  @include suffix(padding-bottom, $bc_padding_bottom, px);
+  @include suffix(padding-left, $bc_padding_left, px);
+  @include suffix(font-size, $bc_font_size, px);
+  @include suffix(letter-spacing, $bc_font_spacing, px);
+  @include suffix(font-style, $bc_font_style, '');
+  @include general(font-weight, $bc_font_weight);
+  @include suffix(text-transform, $bc_font_uppercase, '');
+  @include general(color, $bc_link);
+  @if $bc_align == 'center' {
+    @include suffix(text-align, $bc_align, '');
+  }
+  @if $bc_align == 'left' {
+    @include suffix(text-align, $bc_align, '');
+    .lang-rtl & {
+      @include suffix(text-align, right, '');
+    }
+  }
+  @if $bc_align == 'right' {
+    @include suffix(text-align, $bc_align, '');
+    .lang-rtl & {
+      @include suffix(text-align, left, '');
+    }
+  }
+  @if $bc_boxshadow != none {
+    box-shadow: $bc_boxshadow;
+  }
+  @if $bc_status != 1 {
+    display: none !important;
+  }
+  li:after{
+    @include general(color, $bc_link);
+  }
+  a{
+    @include general(color, $bc_link);
+    &:hover {
+      @include general(color, $bc_link_h);
+    }
+  }
+  @media (max-width: 991px) {
+    @include suffix(padding-top, $bc_padding_r_top, px);
+    @include suffix(padding-right, $bc_padding_r_right, px);
+    @include suffix(padding-bottom, $bc_padding_r_bottom, px);
+    @include suffix(padding-left, $bc_padding_r_left, px);
+  }
+  .lang-rtl & {
+    @include suffix(padding-left, $bc_padding_right, px);
+    @include suffix(padding-right, $bc_padding_left, px);
+    @media (max-width: 991px) {
+      @include suffix(padding-left, $bc_padding_r_right, px);
+      @include suffix(padding-right, $bc_padding_r_left, px);
+    }
+  }
+}

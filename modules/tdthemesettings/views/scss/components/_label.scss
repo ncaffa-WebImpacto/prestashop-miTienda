@@ -1,0 +1,109 @@
+.tddeal, .tddeal-count {
+  .tdcountdown {
+    @include general(background, $pl_deal_bg);
+    @include general(color, $pl_deal_color);
+    border: $pl_deal_border;
+  }
+}
+
+.bitdeal {
+  .tdcountdown {
+    > div {
+      @include general(background, $pl_cta_bg);
+      @include general(color, $pl_cta_color);
+      border: $pl_cta_border;
+      @include suffix(padding, $pl_cta_padding, px);
+      .number {
+        @include suffix(font-size, $pl_cta_no_font_size, px);
+        @include suffix(letter-spacing, $pl_cta_no_font_spacing, px);
+        @include suffix(font-style, $pl_cta_no_font_style, "");
+        @include general(font-weight, $pl_cta_no_font_weight);
+        @include suffix(text-transform, $pl_cta_no_font_uppercase, "");
+      }
+      .text {
+        @include suffix(font-size, $pl_cta_txt_font_size, px);
+        @include suffix(letter-spacing, $pl_cta_txt_font_spacing, px);
+        @include suffix(font-style, $pl_cta_txt_font_style, "");
+        @include general(font-weight, $pl_cta_txt_font_weight);
+        @include suffix(text-transform, $pl_cta_txt_font_uppercase, "");
+      }
+    }
+  }
+}
+
+//sidebar product title & price
+#left-column, #right-column {
+  .products-block {
+    .product-price-and-shipping {
+      .price {
+        @include general(color, $lp_price);
+      }
+      .regular-price {
+        @include general(color, $lp_old_price);
+      }
+    }
+  }
+}
+.product-price-and-shipping {
+  .price {
+    @include general(color, $lp_price);
+  }
+}
+//price
+.product-price{
+  @include general(color, $lp_price);
+}
+.regular-price {
+  @include general(color, $lp_old_price);
+}
+//reviews
+.star:after{
+  @include general(color, $lp_ratings);
+}
+
+//labels
+.product-flags {
+  .product-flag{
+    @include suffix(font-size, $lp_label_font_size, px);
+    @include suffix(letter-spacing, $lp_label_font_spacing, px);
+    @include suffix(font-style, $lp_label_font_style, '');
+    @include general(font-weight, $lp_label_font_weight);
+    @include suffix(text-transform, $lp_label_font_uppercase, '');
+  }
+  .discount, .on-sale{
+    @include general(background, $lp_sale_l_bg);
+    @include general(color, $lp_sale_l_txt);
+  }
+  .new {
+    @include general(background, $lp_new_l_bg);
+    @include general(color, $lp_new_l_txt);
+  }
+  .online-only, .pack{
+    @include general(background, $lp_online_l_bg);
+    @include general(color, $lp_online_l_txt);
+  }
+}
+.product-price.has-discount .discount {
+  @include general(background, $lp_sale_l_bg);
+  @include general(color, $lp_sale_l_txt);
+}
+table#product_comparison, #mywishlist, #view_wishlist {
+  .discount-product, .discount-percentage {
+    @include general(background, $lp_sale_l_bg);
+    @include general(color, $lp_sale_l_txt);
+  }
+}
+//Tooltip
+#ui_tip {
+  @include suffix(font-size, $tip_font_size, px);
+  @include suffix(letter-spacing, $tip_font_spacing, px);
+  @include suffix(font-style, $tip_font_style, '');
+  @include general(font-weight, $tip_font_weight);
+  @include suffix(text-transform, $tip_font_uppercase, '');
+  @include suffix(line-height, $tip_lineheight, px);
+  @include general(background, $tip_bg);
+  @include general(color, $tip_txt);
+  @if $tip_boxshadow != none {
+    box-shadow: $tip_boxshadow;
+  }
+}

@@ -1,0 +1,32 @@
+#checkout {
+	.checkout-step {
+		.card-header {
+			background: transparent;
+			border:none;
+			.step-title  {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				i {
+					vertical-align: middle;
+				}
+				.step-edit {
+					flex:1;
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+					i {
+						margin:0 2px;
+					}
+				}
+			}
+		}
+		.card-footer {
+			> a {
+				display: inline-flex;
+				align-items: center;
+				justify-content: flex-start;
+			}
+		}
+	}
+}

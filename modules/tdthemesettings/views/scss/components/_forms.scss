@@ -1,0 +1,143 @@
+/*** Text fields ***/
+
+.form-control {
+  @include general(background-color, $form_input_bg);
+  @include general(color, $form_input_txt);
+  border: $form_input_border;
+  @if $form_input_boxshadow != none {
+    box-shadow: $form_input_boxshadow;
+  }
+}
+.custom-select2 {
+  @include general(background-color, $form_input_bg);
+}
+.custom-select2:after {
+  @include general(color, $form_input_txt);
+}
+
+.bootstrap-touchspin .btn-touchspin {
+  @include general(background-color, $form_input_bg);
+  @include general(color, $form_input_txt);
+  border: $form_input_border;
+}
+
+.bootstrap-touchspin .btn-touchspin:hover {
+  @include general(color, $form_input_txt);
+  @include general(background, $form_input_bg_h);
+}
+
+.form-control::-webkit-input-placeholder {
+  @include general(color, $form_input_txt);
+}
+.form-control::-moz-placeholder {
+  @include general(color, $form_input_txt);
+}
+.form-control:-ms-input-placeholder {
+  @include general(color, $form_input_txt);
+}
+.form-control:-moz-placeholder {
+  @include general(color, $form_input_txt);
+}
+
+.form-control:focus,
+.custom-select:focus {
+  @include general(color, $form_input_txt);
+  @include general(background-color, $form_input_bg_h);
+  @include general(border-color, $form_input_border_c_h);
+  @if $form_input_boxshadow_h != none {
+    box-shadow: $form_input_boxshadow_h;
+  }
+}
+
+.custom-select2:focus-within {
+  @include general(background-color, $form_input_bg_h);
+}
+
+/*** Radio buttons and checkboxes ***/
+.custom-control-label {
+  &:before {
+    @include general(background, $form_radio_bg);
+    @include general(border-color, $form_radio_border);
+  }
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label,
+.custom-radio .custom-control-input:checked ~ .custom-control-label {
+  &:before {
+    @include general(border-color, $form_radio_checked);
+  }
+  &:after {
+    @include general(background, $form_radio_checked);
+  }
+}
+
+/*** Dropdowns ***/
+.dropdown-menu {
+  @include general(background, $form_dropdown_bg);
+  border: $form_dropdown_border;
+  @if $form_dropdown_boxshadow != none {
+    box-shadow: $form_dropdown_boxshadow;
+  }
+  .dropdown-item {
+    @include general(color, $form_dropdown_txt + "!important");
+    &:hover,
+    &:focus {
+      @include general(color, $form_dropdown_txt_h + "!important");
+    }
+  }
+  .current {
+    .dropdown-item {
+      @include general(color, $form_dropdown_txt_h + "!important");
+    }
+  }
+}
+.user-info {
+  .dropdown-menu {
+    > a {
+      @include general(color, $form_dropdown_txt + "!important");
+      &:hover {
+        @include general(color, $form_dropdown_txt_h + "!important");
+      }
+    }
+  }
+}
+
+
+#search_block_top {
+	#tdsearch_result_content {
+		@include general(background, $form_dropdown_bg);
+		border: $form_dropdown_border;
+		.ajax-search-content {
+			.top-content {
+				border-bottom: $form_dropdown_border;
+				@include general(color, $form_dropdown_txt);
+			}
+			.items-list {
+				.item {
+					a {
+						.category-name {
+							@include general(color, lighten($form_dropdown_txt, 20%));
+						}
+						.product-name {
+              @include general(color, $form_dropdown_txt);
+              &:hover {
+                @include general(color, $form_dropdown_txt_h);
+              }
+						}
+						.content_price {
+							.regular-price {
+								@include general(color, lighten($form_dropdown_txt, 20%));
+							}
+							.sale-percentage {
+								@include general(color, $form_dropdown_txt);
+							}
+							.price {
+								@include general(color, $form_dropdown_txt_h);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

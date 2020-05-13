@@ -1,0 +1,54 @@
+.search-widget {
+	position: relative;
+	z-index: 7;
+	.search-widget-inner {
+		position: relative;
+	}
+	form {
+		#main & {
+			width: 100%;
+			max-width: 100%;
+		}
+		input[type=text] {
+			&:focus {
+				box-shadow: none;
+				outline: none;
+			}
+			padding: 7px 10px;
+			min-width: 300px;
+			border: 1px solid #e5e5e5;
+			@include media-breakpoint-down(xs) { /* max 543 */
+				min-width: 230px;
+				max-width: 230px;
+			}
+			#main & {
+				min-width: 100%;
+			}
+		}
+		button[type=submit] {
+			background: #e5e5e5;
+			border: 1px solid #e5e5e5;
+			color: $black;
+			right: 0px;
+			padding: 0;
+			height: 100%;
+			width: 40px;
+			bottom: 0;
+			cursor: pointer;
+			margin: 0 0 0 5px;
+			@include transition(all 0.5s ease 0s);
+			i {
+				font-size: 22px;
+				vertical-align: middle;
+			}
+			&:hover {
+				background: #000000;
+				border-color: #000000;
+				color: $white;
+			}
+		}
+		input[type=text], button[type=submit] {
+			height: 40px;
+		}
+	}
+}

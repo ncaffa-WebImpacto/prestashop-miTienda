@@ -1,0 +1,278 @@
+/* Image Hover Effects */
+.effect1 {
+	&:before {
+		background: rgba(255,255,255,0.3);
+		bottom: 0;
+		content: "";
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		opacity: 0;
+		z-index: 1;
+	}
+	&:hover {
+		&:before {
+			left: 50%;
+			right: 50%;
+			opacity: 1;
+			@include transition(all 0.9s ease 0s);
+		}
+	}
+}
+
+.effect2 {
+	&:before, &:after {
+		bottom: 15px;
+		content: "";
+		left: 15px;
+		opacity: 0;
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		@include transition(all 0.35s ease 0s);
+		z-index: 1;
+	}
+	&:before {
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+		@include scale(0, 1);
+	}
+	&:after {
+		border-left: 1px solid #ffffff;
+		border-right: 1px solid #ffffff;
+		@include scale(1, 0);
+	}
+	&:hover {
+		&:before, &:after {
+			opacity: 1;
+			@include scale(1, 1);
+		}
+	}
+}
+.effect3 {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	&:before {
+		border: 2px solid #ffffff;
+		bottom: 20px;
+		-webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
+		box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
+		content: "";
+		left: 20px;
+		opacity: 0;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		@include scale(1.4, 1.4);
+		@include transition(all 0.35s ease 0s);
+		z-index: 1;
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+			@include scale(1, 1);
+		}
+	}
+}
+
+.effect4 {
+	&:before, &:after {
+		background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+		position: absolute;
+		content: "";
+		width: 0;
+		height: 0;
+		opacity: 1;
+		@include rotate(100deg);
+	}
+	&:before {
+		right: 0;
+		top: 0;
+	}
+	&:after {
+		left: 0;
+		bottom: 0;
+	}
+	&:hover {
+		&:before, &:after {
+			height: 70%;
+			width: 70%;
+			opacity: 0;
+			@include rotateY(180deg);
+			@include transition(all 0.9s ease 0s);
+		}
+	}
+}
+
+.effect5 {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	&:before {
+		border: 0px solid rgba(0, 0, 0, 0.1);
+		bottom: 0;
+		content: "";
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		@include transition(all 0.1s ease-out 0s);
+	}
+	&:after {
+		background: #fff;
+		left: 10px;
+		position: absolute;
+		top: 10px;
+		bottom:10px;
+		right:10px;
+		visibility: hidden;
+		content: "";
+		@include scale(0, 0);
+		@include transition(all 0.3s ease 0s);
+		opacity: 0.3;
+	}
+	&:hover {
+		&:before {
+			border-width: 10px;
+		}
+		&:after {
+			@include scale(1, 1);
+			visibility: visible;
+		}
+	}
+}
+
+.effect6 {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	&:before, &:after {
+		background: rgba(255, 255, 255, 0.5);
+		bottom: 0;
+		content: "";
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 99;
+		opacity: 0;
+		@include transition(all 0.9s ease 0s);
+	}
+	img {
+		@include transition(all 0.9s ease 0s);
+	}
+	&:hover {
+		&:before, &:after {
+			opacity: 1;
+		}
+		&:before {
+			left: 50%;
+			right: 50%;
+		}
+		&:after {
+			bottom: 50%;
+			top: 50%;
+		}
+		img {
+			@include scale(1.1, 1.1);
+		}
+	}
+}
+
+.effect7 {
+	overflow: hidden;
+	position: relative;
+	img {
+		@include transition(all 1.3s ease 0s);
+	}
+	&:hover {
+		img {
+			@include scale(1.1, 1.1);
+		}
+	}
+}
+
+.effect8 {
+	overflow: hidden;
+	&:before {
+		content: '';
+		position: absolute;
+		@include transition(all 0.5s ease-in-out 0s);
+		border: 150px double rgba(255,255,255,0);
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+	&:hover {
+		&:before {
+			border: 0px double rgba(255,255,255,0.7);
+			opacity: 0;
+		}
+	}
+}
+
+.effect9 {
+	overflow: hidden;
+	&:before {
+		background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+		bottom: 10px;
+		content: "";
+		left: 10px;
+		opacity: 1;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		@include scale(0, 0);
+	}
+	&:hover {
+		&:before {
+			opacity: 0;
+			@include scale(1, 1);
+			@include transition-duration(1.5s);
+		}
+	}
+}
+
+.effect10 {
+	overflow: hidden;
+	&:before, &:after {
+		background: #ffffff;
+		content: "";
+		height: 0;
+		opacity:0.2;
+		position: absolute;
+		@include transition(all 0.3s ease-out 0s);
+		width: 0;
+	}
+	&:before {
+		top: 0;
+		left: 0;
+	}
+	&:after {
+		right: 0;
+		bottom: 0;
+	}
+	&:hover {
+		&:before, &:after {
+			@include transition(all 0.3s ease-out 0s);
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}

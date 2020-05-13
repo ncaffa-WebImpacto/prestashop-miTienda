@@ -1,0 +1,41 @@
+/**
+*  @author    BIT Themes
+*  @copyright 2015-2019 BIT Themes. All Rights Reserved.
+*  @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+*/
+
+.icon-AdminBitblogManagement:before {
+	content: "\f040";
+	font-family: FontAwesome
+}
+
+#bloggeneralsetting .panel
+{
+	border-radius: 0px 0px 5px 5px !important;
+}
+.nav-tabs a:focus
+{
+	outline: none;
+}
+.bitblog-globalconfig a:focus
+{
+
+	border-top: 3px solid #25b9d7 !important;
+	border-bottom: none !important;
+}
+
+.bitblog-globalconfig a:hover, .bitblog-globalconfig li.active a
+{
+	border-top: 3px solid #25b9d7 !important;
+	border-bottom: none !important;
+}
+
+#bloggeneralsetting .panel
+{
+	display: none;
+}
+
+#bloggeneralsetting .panel.active
+{
+	display: block;
+}

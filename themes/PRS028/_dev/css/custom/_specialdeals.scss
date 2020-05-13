@@ -1,0 +1,67 @@
+.elementor-products-countdown {
+	.product-miniature {
+		.product-container {
+			position: relative;
+			.product-description {
+				@include media-breakpoint-down(xs) {
+					margin-top: 10px;
+				}
+				.product-title {
+					margin: 0;
+					a {
+						font-size: 16px;
+						line-height: 24px;
+						color: #232323;
+						font-weight: 600;
+					}
+				}
+				.product-description {
+					margin-top: 5px;
+				}
+				.product-price-and-shipping {
+					margin-top: 10px;
+				}
+				.comments_note {
+					margin-top: 10px;
+				}
+				.button-container {
+					position: relative;
+					margin-top: 10px;
+					> div {
+						box-shadow: none;
+						padding: 0;
+						display: inline-block;
+						.btn-primary{
+							width: 40px;
+							height: 40px;
+							border-radius: 50px;
+						}
+					}
+				}
+				.bitdeal {
+					margin-top: 10px;
+					.tdcountdown {
+						> div {
+							display: inline-block;
+							text-align: center;
+							margin: 0 5px 0 0;
+							min-width: 60px;
+							width: auto;
+							@include media-breakpoint-down(md) { /* max 991 */
+								min-width: 50px;
+							}
+							.number {
+								position: relative;
+								display: block;
+							}
+							.text {
+								line-height: normal;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
