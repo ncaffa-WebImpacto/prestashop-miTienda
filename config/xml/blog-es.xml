@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>11 Módulos para aumentar tu tasa de conversión mediante una mejor gestión del carrito</title>
+    <link>https://www.prestashop.com/es/blog/modulos-aumentar-tasa-de-conversion</link>
+    <description>¿Sabes qué es la tasa de conversión de tu negocio y, sobre todo, cómo puedes mejorarla?</description>
+     <pubDate>Sat, 09 May 2020 20:10:25 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-aumentar-tasa-de-conversion</guid>
+  </item>
+  <item>
+    <title>¿Qué es un PIM y cómo usarlo para gestionar mejor tu stock?</title>
+    <link>https://www.prestashop.com/es/blog/product-information-management</link>
+    <description>Si estás en una etapa de crecimiento en tu eCommerce, lo normal es que empieces a almacenar mucha información referente a las ventas, clientes y otras gestiones más de la marca.</description>
+     <pubDate>Sun, 03 May 2020 18:39:05 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/product-information-management</guid>
+  </item>
+  <item>
+    <title>6 Mejores módulos para potenciar la página de Facebook de tu negocio</title>
+    <link>https://www.prestashop.com/es/blog/mejores-modulos-pagina-facebook</link>
+    <description>¿Estás actualmente dando visibilidad a la Fan Page de Facebook de tu tienda online?</description>
+     <pubDate>Wed, 29 Apr 2020 17:45:24 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/mejores-modulos-pagina-facebook</guid>
+  </item>
+  <item>
+    <title>Cifras clave sobre el COVID-19 que te interesan conocer si tienes un eCommerce</title>
+    <link>https://www.prestashop.com/es/blog/cifras-covid19</link>
+    <description>Después de las fases de &quot;compras de pánico&quot; centradas en las necesidades básicas, la actividad de distribución permanece considerablemente afectada por la </description>
+     <pubDate>Tue, 28 Apr 2020 18:41:34 +0200</pubDate>
+ <dc:creator>Flavia Sanchez ES</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/cifras-covid19</guid>
+  </item>
+  <item>
+    <title>¿Cómo viven el confinamiento por el COVID-19 los equipos de PrestaShop?</title>
+    <link>https://www.prestashop.com/es/blog/como-viven-confinamiento</link>
+    <description>¿Tienes curiosidad por conocer cómo viven en PrestaSop este período de crisis sanitaria y económica?</description>
+     <pubDate>Tue, 28 Apr 2020 18:13:38 +0200</pubDate>
+ <dc:creator>Flavia Sanchez ES</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-viven-confinamiento</guid>
+  </item>
+  <item>
+    <title>¿Cómo hacer un brainstorming o lluvia de ideas efectivo para tu tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/que-es-brainstorming</link>
+    <description>¿Quieres comenzar tu propia tienda online, pero no tienes ni idea de por dónde empezar o qué hacer?</description>
+     <pubDate>Wed, 22 Apr 2020 17:52:36 +0200</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-brainstorming</guid>
+  </item>
+  <item>
+    <title>9 Soluciones a corto plazo para PYMES para hacer frente al Covid-19</title>
+    <link>https://www.prestashop.com/es/blog/soluciones-pymes</link>
+    <description>Las PYMES se ven muy afectadas económicamente por la situación actual del Covid-19.</description>
+     <pubDate>Fri, 17 Apr 2020 19:06:03 +0200</pubDate>
+ <dc:creator>Aurélien Bellanger</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/soluciones-pymes</guid>
+  </item>
+  <item>
+    <title>¿Qué es el Keyword Stuffing, en qué consiste y cómo evitarla en tu web? </title>
+    <link>https://www.prestashop.com/es/blog/keyword-stuffing</link>
+    <description>¿Conoces qué es el Keyword Stuffing y cómo podría (hoy en día) frustrar tus intentos de posicionar tus contenidos en Internet?</description>
+     <pubDate>Tue, 14 Apr 2020 17:59:47 +0200</pubDate>
+ <dc:creator>Lucía Rico</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/keyword-stuffing</guid>
+  </item>
+  <item>
+    <title>La formación: un elemento indispensable del ecosistema de PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/formacion-prestashop</link>
+    <description>¿Qué importancia das a la formación dentro de tu equipo de trabajo?</description>
+     <pubDate>Tue, 14 Apr 2020 17:19:44 +0200</pubDate>
+ <dc:creator>Aurélien Bellanger</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/formacion-prestashop</guid>
+  </item>
+  <item>
+    <title>5 Técnicas de Marketing clave para potenciar tu tienda online</title>
+    <link>https://www.prestashop.com/es/blog/tecnicas-de-marketing</link>
+    <description>Existen una gran cantidad de técnicas y estrategias que te pueden ayudar en tu eCommerce, algunas de ellas especializada en potenciar aspectos específicos de tu marca o negocio, mientras que otros </description>
+     <pubDate>Mon, 13 Apr 2020 11:02:22 +0200</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/tecnicas-de-marketing</guid>
+  </item>
+  </channel>
+</rss>
