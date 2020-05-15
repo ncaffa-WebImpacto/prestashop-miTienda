@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 08:51:50
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:59
   from 'C:\xampp\htdocs\mitienda\modules\bitelementor\views\templates\widgets\productslist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe3c06f411a1_36753014',
+  'unifunc' => 'content_5ebe6423703172_43099135',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_5ebe3c06f411a1_36753014 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6423703172_43099135 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section class="elementor-products">
     <?php if (isset($_smarty_tpl->tpl_vars['products']->value) && $_smarty_tpl->tpl_vars['products']->value) {?>

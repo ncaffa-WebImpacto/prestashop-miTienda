@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 08:51:49
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:58
   from 'C:\xampp\htdocs\mitienda\modules\bitelementor\views\templates\widgets\categorylist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe3c05c1e4f0_95911363',
+  'unifunc' => 'content_5ebe642294a593_19048113',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:bitelementor/views/templates/widgets/category/".((string)$_smarty_tpl->tpl_vars[\'style\']->value).".tpl' => 1,
   ),
 ),false)) {
-function content_5ebe3c05c1e4f0_95911363 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe642294a593_19048113 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section class="elementor-categorylist">
     <?php if (isset($_smarty_tpl->tpl_vars['categories']->value) && $_smarty_tpl->tpl_vars['categories']->value) {?>

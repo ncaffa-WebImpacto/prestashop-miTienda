@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:01
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:14
   from 'module:pslanguageselectorpslangu' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1cc93bbb48_22022567',
+  'unifunc' => 'content_5ebe6432d5cfd7_50048669',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1c00f78dace25d509ec3a1f54176b7ae2000accf' => 
     array (
       0 => 'module:pslanguageselectorpslangu',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1cc93bbb48_22022567 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6432d5cfd7_50048669 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="_desktop_language_selector">
   <div id="language_selector">
     <div class="language-selector-wrapper">

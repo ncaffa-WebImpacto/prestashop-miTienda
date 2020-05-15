@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>miprimermodulo</name>
+    <displayName><![CDATA[Mi nuevo modulo]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[el primer modulo que he creado]]></description>
+    <author><![CDATA[Nicol&aacute;s Caffa Carreras]]></author>
+    <tab><![CDATA[others]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

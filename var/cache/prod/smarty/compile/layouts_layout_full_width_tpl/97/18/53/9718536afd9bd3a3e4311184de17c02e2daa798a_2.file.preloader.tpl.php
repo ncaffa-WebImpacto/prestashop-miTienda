@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:03
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:15
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\_partials\preloader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1ccb1ace67_73973469',
+  'unifunc' => 'content_5ebe6433c13828_45692350',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9718536afd9bd3a3e4311184de17c02e2daa798a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\themes\\PRS028\\templates\\_partials\\_partials\\preloader.tpl',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1ccb1ace67_73973469 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6433c13828_45692350 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['themeOpt']->value['g_preloader']) && $_smarty_tpl->tpl_vars['themeOpt']->value['g_preloader'] != "prenone") {?>
 	<div class="loader-wrapper <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['themeOpt']->value['g_preloader'], ENT_QUOTES, 'UTF-8');?>
 ">

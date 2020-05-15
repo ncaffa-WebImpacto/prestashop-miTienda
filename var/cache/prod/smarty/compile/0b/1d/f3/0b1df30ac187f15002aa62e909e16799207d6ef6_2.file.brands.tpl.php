@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 08:51:51
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:59
   from 'C:\xampp\htdocs\mitienda\modules\bitelementor\views\templates\widgets\brands.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe3c078c06f3_36705414',
+  'unifunc' => 'content_5ebe6423e22ce3_27489846',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe3c078c06f3_36705414 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6423e22ce3_27489846 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="elementor-brands">
     <?php if (isset($_smarty_tpl->tpl_vars['brands']->value) && $_smarty_tpl->tpl_vars['brands']->value) {?>
         <div class="block_content products row <?php if ($_smarty_tpl->tpl_vars['view']->value == 'grid') {?> grid cols-xs-<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['xsd']->value, ENT_QUOTES, 'UTF-8');?>

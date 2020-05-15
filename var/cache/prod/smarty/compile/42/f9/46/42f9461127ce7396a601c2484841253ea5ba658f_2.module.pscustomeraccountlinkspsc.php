@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:02
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:15
   from 'module:pscustomeraccountlinkspsc' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1ccaf26347_11531869',
+  'unifunc' => 'content_5ebe6433b0b4e2_11553042',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42f9461127ce7396a601c2484841253ea5ba658f' => 
     array (
       0 => 'module:pscustomeraccountlinkspsc',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1ccaf26347_11531869 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6433b0b4e2_11553042 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="block_myaccount_infos" class="col-12 <?php if ($_smarty_tpl->tpl_vars['themeOpt']->value['f_layout'] == 1) {?> col-lg-3<?php } else { ?> col-lg-2<?php }?> links wrapper">
     <p class="title_block hidden-md-down"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Your account','d'=>'Shop.Theme.Customeraccount'),$_smarty_tpl ) );?>

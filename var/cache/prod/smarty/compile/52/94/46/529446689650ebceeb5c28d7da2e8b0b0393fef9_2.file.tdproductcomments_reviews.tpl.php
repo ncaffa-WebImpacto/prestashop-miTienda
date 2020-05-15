@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:09
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:59
   from 'C:\xampp\htdocs\mitienda\modules\tdproductcomments\views\templates\hook\tdproductcomments_reviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1cd1dc8c74_99331114',
+  'unifunc' => 'content_5ebe64234602f4_29835326',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '529446689650ebceeb5c28d7da2e8b0b0393fef9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\modules\\tdproductcomments\\views\\templates\\hook\\tdproductcomments_reviews.tpl',
-      1 => 1589356896,
+      1 => 1589401689,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1cd1dc8c74_99331114 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe64234602f4_29835326 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\mitienda\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 if ((isset($_smarty_tpl->tpl_vars['nbComments']->value) && $_smarty_tpl->tpl_vars['nbComments']->value > 0) || $_smarty_tpl->tpl_vars['zeroCommentDisplay']->value) {?>
     <div class="comments_note">

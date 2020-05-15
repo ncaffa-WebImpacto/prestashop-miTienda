@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:09
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:59
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\catalog\_partials\miniatures\_partials\product-miniature-price.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1cd1e5d826_47683174',
+  'unifunc' => 'content_5ebe64233dc6a4_00289334',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f28975c61afde30e43227e7136968367b9a3367' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\themes\\PRS028\\templates\\catalog\\_partials\\miniatures\\_partials\\product-miniature-price.tpl',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1cd1e5d826_47683174 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe64233dc6a4_00289334 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['product']->value['show_price']) {?>
     <div class="product-price-and-shipping">
         <?php if ($_smarty_tpl->tpl_vars['product']->value['has_discount']) {?>

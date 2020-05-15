@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:09
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:59
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\catalog\_partials\miniatures\_partials\product-miniature-left.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1cd1b9de51_17441522',
+  'unifunc' => 'content_5ebe64238f47c1_20793531',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd57d502435f094827167d2674a7001a1fd897953' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\themes\\PRS028\\templates\\catalog\\_partials\\miniatures\\_partials\\product-miniature-left.tpl',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/_partials/product-miniature-price.tpl' => 1,
   ),
 ),false)) {
-function content_5ebc1cd1b9de51_17441522 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe64238f47c1_20793531 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="product-container">
     <div class="thumbnail-container">
         <div class ="thumbnail-inner">

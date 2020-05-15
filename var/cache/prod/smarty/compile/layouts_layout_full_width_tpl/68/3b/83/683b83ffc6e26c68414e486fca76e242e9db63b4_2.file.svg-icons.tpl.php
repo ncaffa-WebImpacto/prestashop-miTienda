@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:01
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:14
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\_partials\svg-icons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1cc9155631_02856582',
+  'unifunc' => 'content_5ebe6432b5e725_37724240',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '683b83ffc6e26c68414e486fca76e242e9db63b4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\themes\\PRS028\\templates\\_partials\\_partials\\svg-icons.tpl',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1cc9155631_02856582 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6432b5e725_37724240 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 	<svg style="display: none;">
 		<symbol id="bitheadercontact" viewBox="0 0 512 512">

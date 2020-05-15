@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:00
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:14
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\font.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1cc8ba2904_46757054',
+  'unifunc' => 'content_5ebe64327e4a71_81166263',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9172f182f9da920abec55aaba0217f3d737f5529' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\themes\\PRS028\\templates\\_partials\\font.tpl',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1cc8ba2904_46757054 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe64327e4a71_81166263 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <link rel="preconnect" href="//fonts.gstatic.com/" crossorigin>
 <link rel="preconnect" href="//ajax.googleapis.com" crossorigin>

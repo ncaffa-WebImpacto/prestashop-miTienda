@@ -1199,6 +1199,7 @@ class AdminContainer extends Container
                 75 => 'stcustomcode',
                 76 => 'paypal',
                 77 => 'ps_emailalerts',
+                78 => 'mimodulo',
             ],
             'ps_cache_dir' => 'C:\\xampp\\htdocs\\mitienda/var/cache/prod\\',
             'mail_themes_uri' => '/mails/themes',

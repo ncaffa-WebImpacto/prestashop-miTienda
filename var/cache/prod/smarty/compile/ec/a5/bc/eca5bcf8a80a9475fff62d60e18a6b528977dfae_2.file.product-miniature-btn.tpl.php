@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 08:51:50
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:59
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\catalog\_partials\miniatures\_partials\product-miniature-btn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe3c06a0b859_77661824',
+  'unifunc' => 'content_5ebe64231bb883_89366648',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe3c06a0b859_77661824 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe64231bb883_89366648 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['themeOpt']->value['pl_grid_cart_btn']) && $_smarty_tpl->tpl_vars['themeOpt']->value['pl_grid_cart_btn'] == "1") {?>
 	<?php if (!$_smarty_tpl->tpl_vars['configuration']->value['is_catalog']) {?>
 		<div class="product-add-to-cart">

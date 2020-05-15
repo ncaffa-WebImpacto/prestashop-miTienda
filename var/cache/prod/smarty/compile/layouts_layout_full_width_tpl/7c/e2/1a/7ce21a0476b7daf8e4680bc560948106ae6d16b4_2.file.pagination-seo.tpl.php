@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:00
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:14
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\pagination-seo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1cc8e9bf75_61724354',
+  'unifunc' => 'content_5ebe64329ff5a6_26736920',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7ce21a0476b7daf8e4680bc560948106ae6d16b4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\themes\\PRS028\\templates\\_partials\\pagination-seo.tpl',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1cc8e9bf75_61724354 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe64329ff5a6_26736920 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\mitienda\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 if (isset($_smarty_tpl->tpl_vars['listing']->value['pagination']) && $_smarty_tpl->tpl_vars['listing']->value['pagination']['should_be_displayed']) {?>
     <?php $_smarty_tpl->_assignInScope('page_nb', 1);?>

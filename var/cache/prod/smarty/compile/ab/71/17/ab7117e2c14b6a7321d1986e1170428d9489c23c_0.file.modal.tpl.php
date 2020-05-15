@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 17:57:11
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:51
   from 'C:\xampp\htdocs\mitienda\modules\ps_mbo\views\templates\admin\modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc18d7d37c27_92464401',
+  'unifunc' => 'content_5ebe641bc9eb43_34230778',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ab7117e2c14b6a7321d1986e1170428d9489c23c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\modules\\ps_mbo\\views\\templates\\admin\\modal.tpl',
-      1 => 1589297235,
+      1 => 1589401688,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc18d7d37c27_92464401 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe641bc9eb43_34230778 (Smarty_Internal_Template $_smarty_tpl) {
 ?> 
 <div class="modal fade" id="modules_list_container">
 	<div class="modal-dialog">

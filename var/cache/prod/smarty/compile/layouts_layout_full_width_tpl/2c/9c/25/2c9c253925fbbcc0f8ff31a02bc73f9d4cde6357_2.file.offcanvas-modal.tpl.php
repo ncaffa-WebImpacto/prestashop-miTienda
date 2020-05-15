@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:03
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:15
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\_partials\offcanvas-modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1ccb248f04_40704778',
+  'unifunc' => 'content_5ebe6433c7dc23_59129393',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2c9c253925fbbcc0f8ff31a02bc73f9d4cde6357' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\themes\\PRS028\\templates\\_partials\\_partials\\offcanvas-modal.tpl',
-      1 => 1589356898,
+      1 => 1589401702,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1ccb248f04_40704778 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6433c7dc23_59129393 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -39,7 +39,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
             <div class="modal-body">
                 <?php if ($_smarty_tpl->tpl_vars['themeOpt']->value['cat_layout'] == 3) {?>
                   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13173460625ebc1ccb247a52_15087057', 'product_list_facets_center');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_3377745105ebe6433c7c7c7_44984056', 'product_list_facets_center');
 ?>
 
                 <?php }?>
@@ -70,12 +70,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13173460625ebc1ccb
     </div>
 </div><?php }
 /* {block 'product_list_facets_center'} */
-class Block_13173460625ebc1ccb247a52_15087057 extends Smarty_Internal_Block
+class Block_3377745105ebe6433c7c7c7_44984056 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_list_facets_center' => 
   array (
-    0 => 'Block_13173460625ebc1ccb247a52_15087057',
+    0 => 'Block_3377745105ebe6433c7c7c7_44984056',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

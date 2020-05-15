@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 17:57:10
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:50
   from 'C:\xampp\htdocs\mitienda\modules\ps_mbo\views\templates\admin\toolbar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc18d6bf6979_81758516',
+  'unifunc' => 'content_5ebe641ad7d5a5_63005098',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f6f6c17c0850f5965ce3d1ac27a093c6225f9de8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\mitienda\\modules\\ps_mbo\\views\\templates\\admin\\toolbar.tpl',
-      1 => 1589297235,
+      1 => 1589401688,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc18d6bf6979_81758516 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe641ad7d5a5_63005098 (Smarty_Internal_Template $_smarty_tpl) {
 ?> 
 <?php if (!$_smarty_tpl->tpl_vars['isSymfonyContext']->value) {?>
     <li style="display:none;">

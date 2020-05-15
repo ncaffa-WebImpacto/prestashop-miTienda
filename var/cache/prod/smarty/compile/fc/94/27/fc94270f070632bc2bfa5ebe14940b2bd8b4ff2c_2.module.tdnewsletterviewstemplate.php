@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 18:14:03
+/* Smarty version 3.1.33, created on 2020-05-15 11:43:15
   from 'module:tdnewsletterviewstemplate' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebc1ccb35df81_96069941',
+  'unifunc' => 'content_5ebe6433d4be08_56842214',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc94270f070632bc2bfa5ebe14940b2bd8b4ff2c' => 
     array (
       0 => 'module:tdnewsletterviewstemplate',
-      1 => 1589356895,
+      1 => 1589401689,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebc1ccb35df81_96069941 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6433d4be08_56842214 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['items']->value && isset($_smarty_tpl->tpl_vars['items']->value)) {?>
     <div  class="td-newsletter" style="max-width: <?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['width']->value,'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 px; height: <?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['height']->value,'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>

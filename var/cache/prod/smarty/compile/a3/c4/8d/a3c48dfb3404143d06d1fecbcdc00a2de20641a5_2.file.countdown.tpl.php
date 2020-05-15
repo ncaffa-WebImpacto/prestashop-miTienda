@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 08:51:51
+/* Smarty version 3.1.33, created on 2020-05-15 11:42:59
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\catalog\_partials\miniatures\countdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe3c07378164_53365851',
+  'unifunc' => 'content_5ebe6423a8ec49_75575449',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,20 +21,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/_partials/product-countdown-".((string)$_smarty_tpl->tpl_vars[\'style\']->value).".tpl' => 1,
   ),
 ),false)) {
-function content_5ebe3c07378164_53365851 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe6423a8ec49_75575449 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_17030262515ebe3c07376447_66476841', 'product_miniature_item');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8076126645ebe6423a8ccd2_38762460', 'product_miniature_item');
 ?>
 
 <?php }
 /* {block 'product_miniature_item'} */
-class Block_17030262515ebe3c07376447_66476841 extends Smarty_Internal_Block
+class Block_8076126645ebe6423a8ccd2_38762460 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_miniature_item' => 
   array (
-    0 => 'Block_17030262515ebe3c07376447_66476841',
+    0 => 'Block_8076126645ebe6423a8ccd2_38762460',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
