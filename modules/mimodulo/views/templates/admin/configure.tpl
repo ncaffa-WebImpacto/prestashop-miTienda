@@ -44,5 +44,6 @@
 			<li><a href="#" target="_blank">{l s='English' mod='mimodulo'}</a></li>
 			<li><a href="#" target="_blank">{l s='French' mod='mimodulo'}</a></li>
 		</ul>
+		{* Texto<input class="form-control" type="text" name=""> *}
 	</p>
 </div>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 11:43:15
+/* Smarty version 3.1.33, created on 2020-05-15 14:36:56
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe64337733e4_95559411',
+  'unifunc' => 'content_5ebe8ce8c1e3b6_27673054',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,20 +22,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:_partials/_partials/footer-2.tpl' => 1,
   ),
 ),false)) {
-function content_5ebe64337733e4_95559411 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe8ce8c1e3b6_27673054 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14804736035ebe6433770d27_39417668', 'footer_desktop');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6908889025ebe8ce8c1be87_08141317', 'footer_desktop');
 ?>
 
 <?php }
 /* {block 'footer_desktop'} */
-class Block_14804736035ebe6433770d27_39417668 extends Smarty_Internal_Block
+class Block_6908889025ebe8ce8c1be87_08141317 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'footer_desktop' => 
   array (
-    0 => 'Block_14804736035ebe6433770d27_39417668',
+    0 => 'Block_6908889025ebe8ce8c1be87_08141317',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

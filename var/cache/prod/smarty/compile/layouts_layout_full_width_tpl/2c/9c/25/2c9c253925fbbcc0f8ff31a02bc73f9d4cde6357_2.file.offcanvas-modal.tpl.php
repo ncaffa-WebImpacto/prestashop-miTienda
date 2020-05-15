@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 11:43:15
+/* Smarty version 3.1.33, created on 2020-05-15 14:36:57
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\_partials\offcanvas-modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe6433c7dc23_59129393',
+  'unifunc' => 'content_5ebe8ce924ae21_89826549',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe6433c7dc23_59129393 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebe8ce924ae21_89826549 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -39,7 +39,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
             <div class="modal-body">
                 <?php if ($_smarty_tpl->tpl_vars['themeOpt']->value['cat_layout'] == 3) {?>
                   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_3377745105ebe6433c7c7c7_44984056', 'product_list_facets_center');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_5561497185ebe8ce92497b2_92660733', 'product_list_facets_center');
 ?>
 
                 <?php }?>
@@ -70,12 +70,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_3377745105ebe6433c
     </div>
 </div><?php }
 /* {block 'product_list_facets_center'} */
-class Block_3377745105ebe6433c7c7c7_44984056 extends Smarty_Internal_Block
+class Block_5561497185ebe8ce92497b2_92660733 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_list_facets_center' => 
   array (
-    0 => 'Block_3377745105ebe6433c7c7c7_44984056',
+    0 => 'Block_5561497185ebe8ce92497b2_92660733',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

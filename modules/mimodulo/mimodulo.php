@@ -62,7 +62,10 @@ class Mimodulo extends Module
         Configuration::updateValue('MIMODULO_LIVE_MODE', false);
 
         return parent::install() &&
-            $this->registerHook('displayHome');
+            $this->registerHook('displayHome')&&
+            $this->registerHook('displayFooterProduct');
+            
+
     }
 
     public function uninstall()
@@ -88,7 +91,9 @@ class Mimodulo extends Module
 
         $output = $this->context->smarty->fetch($this->local_path.'views/templates/admin/configure.tpl');
 
-        return $output.$this->renderForm();
+         return $output.$this->renderForm();
+
+       
     }
 
     /**
@@ -116,8 +121,12 @@ class Mimodulo extends Module
             'id_language' => $this->context->language->id,
         );
 
+        $helper->fields_value['MIMODULO_TEXTO'] = Configuration::get('MODULO_TEXTO_HOME');
+
         return $helper->generateForm(array($this->getConfigForm()));
     }
+
+
 
     /**
      * Create the structure of your form.
@@ -132,9 +141,9 @@ class Mimodulo extends Module
                 ),
                 'input' => array(
                     array(
-                        'type' => 'switch',
-                        'label' => $this->l('Live mode'),
-                        'name' => 'MIMODULO_LIVE_MODE',
+                        'type' => 'text',
+                        'label' => $this->l('Texto'),
+                        'name' => 'MIMODULO_TEXTO',
                         'is_bool' => true,
                         'desc' => $this->l('Use this module in live mode'),
                         'values' => array(
@@ -176,7 +185,10 @@ class Mimodulo extends Module
      */
     protected function getConfigFormValues()
     {
-        return array(
+
+        $texto = Tools::getValue("MIMODULO_TEXTO");
+        return array( 
+            'MIMODULO_TEXTO' => Configuration::get('MIMODULO_TEXTO', $texto),
             'MIMODULO_LIVE_MODE' => Configuration::get('MIMODULO_LIVE_MODE', true),
             'MIMODULO_ACCOUNT_EMAIL' => Configuration::get('MIMODULO_ACCOUNT_EMAIL', 'contact@prestashop.com'),
             'MIMODULO_ACCOUNT_PASSWORD' => Configuration::get('MIMODULO_ACCOUNT_PASSWORD', null),
@@ -205,13 +217,52 @@ class Mimodulo extends Module
      */
    
 
-    public function hookDisplayHome()
+    public function hookDisplayHome(array $params)
     {
 
+            $product = $params['product'];
+            dump($params);
+
+        $texto = Configuration::get("MIMODULO_TEXTO");
+        $this->context->smarty->assign(array(
+            'texto_variable' => $texto
+        ));
         //  $this->context->controller->registerStylesheet($this->local_path.'views/css/front.css');
          return $this->display(__FILE__, 'views/templates/hook/mimodulo.tpl');
         
     }
+
+
+    public function hookdisplayTdProductTabContent(array $params){
+       
+       
+
+
+    }
+
+    public function hookdisplayTdProductTab(array $params){
+       
+       
+
+    }
+
+    public function hookdisplayFooterProduct(array $params){
+       
+        
+        dump($params['product']);
+
+        $product->context->smarty->$params['product'];
+
+        dump($product);
+        
+
+        // $this->context->smarty->assign(array(
+        //     'texto_variable' => 
+        // ));
+
+
+    }
+
 
 
    
