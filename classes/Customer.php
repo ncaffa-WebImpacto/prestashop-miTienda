@@ -45,6 +45,8 @@ class CustomerCore extends ObjectModel
 
     /** @var string protected note */
     public $note;
+	
+
 
     /** @var int Gender ID */
     public $id_gender = 0;

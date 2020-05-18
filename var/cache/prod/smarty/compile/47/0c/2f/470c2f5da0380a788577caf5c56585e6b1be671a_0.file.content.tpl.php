@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-18 09:24:58
+/* Smarty version 3.1.33, created on 2020-05-18 18:08:55
   from 'C:\xampp\htdocs\mitienda\modules\welcome\views\content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ec2384a11abf8_92220287',
+  'unifunc' => 'content_5ec2b317330513_04891667',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ec2384a11abf8_92220287 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec2b317330513_04891667 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\mitienda\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 ?>
 
