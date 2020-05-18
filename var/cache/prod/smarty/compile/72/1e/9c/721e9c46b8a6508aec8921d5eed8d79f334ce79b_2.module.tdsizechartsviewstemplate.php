@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:56
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:09
   from 'module:tdsizechartsviewstemplate' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce84ccf04_90854180',
+  'unifunc' => 'content_5ec23855cf1034_76415869',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce84ccf04_90854180 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec23855cf1034_76415869 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['charts']->value) && $_smarty_tpl->tpl_vars['charts']->value) {?>
     <div class="tdsize-chart">
         <a class="schart tip_inside" href="#tdsizecharts-<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['id'], ENT_QUOTES, 'UTF-8');?>

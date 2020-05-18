@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:54
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:08
   from 'C:\xampp\htdocs\mitienda\modules\tdcompare\views\templates\hook\product-compare-header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce6eb6310_59844351',
+  'unifunc' => 'content_5ec238545ab4c1_71056251',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce6eb6310_59844351 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec238545ab4c1_71056251 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['comparator_max_item']->value) {?>
 	<a class="bt_compare" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['compareUrl']->value, ENT_QUOTES, 'UTF-8');?>
 " title="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Compare','mod'=>'tdcompare'),$_smarty_tpl ) );?>

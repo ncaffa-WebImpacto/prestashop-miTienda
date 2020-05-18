@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:54
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:08
   from 'module:tdsearchblockviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce6daa863_32188621',
+  'unifunc' => 'content_5ec23854487c41_21838681',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce6daa863_32188621 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec23854487c41_21838681 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="_desktop_search" class="searchwrap">
     <div class="tdsearchblock clearfix">
         <div id="search_block_top">

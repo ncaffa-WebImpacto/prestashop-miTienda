@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:56
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:10
   from 'C:\xampp\htdocs\mitienda\modules\tdproductcomments\views\templates\hook\tdproductcomments.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce8a381c4_85550146',
+  'unifunc' => 'content_5ec238562c6be3_03131761',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce8a381c4_85550146 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec238562c6be3_03131761 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\mitienda\\vendor\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 ?>
 <div class="tab-pane <?php if ($_smarty_tpl->tpl_vars['themeOpt']->value['pp_tabs_style'] == 'accordion') {?> collapse accordion-tab-description<?php }?>" id="product-comment">

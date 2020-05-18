@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:54
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:07
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\pagination-seo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce697bb36_19660755',
+  'unifunc' => 'content_5ec23853f14775_05934764',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce697bb36_19660755 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec23853f14775_05934764 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\mitienda\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 if (isset($_smarty_tpl->tpl_vars['listing']->value['pagination']) && $_smarty_tpl->tpl_vars['listing']->value['pagination']['should_be_displayed']) {?>
     <?php $_smarty_tpl->_assignInScope('page_nb', 1);?>

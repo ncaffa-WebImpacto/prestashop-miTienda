@@ -1,4 +1,5 @@
 <?php
+
 /**
 * 2007-2020 PrestaShop
 *
@@ -220,9 +221,7 @@ class Mimodulo extends Module
     public function hookDisplayHome(array $params)
     {
 
-            $product = $params['product'];
-            dump($params);
-
+           
         $texto = Configuration::get("MIMODULO_TEXTO");
         $this->context->smarty->assign(array(
             'texto_variable' => $texto
@@ -247,13 +246,42 @@ class Mimodulo extends Module
     }
 
     public function hookdisplayFooterProduct(array $params){
+
+        
+        // dump(Product::getProductName(21));
+        // dump(Product::getProductCategories(21));
+        // dump($params['product']['name']);
+        
+
+          $product =$params['product'];
+          $this->context->smarty->assign(array('product' => $product,));
+
+        
+
+         //$product = $params['product'];
+        //  $productName = $params['product']['name'];
+        //  $productCat = $params['category']->{'id'};
+        //  $productCatName = $params['category']->{'name'};
+        //  $src="$image.bySize.home_default.url";
+
+        //  $this->context->smarty->assign(array(
+        //     'product.name' => $productName,
+        //     'idcategory' => $productCat ,
+        //     'categoryname'=>$productCatName
+        // ));
+
+        //  dump($productName);
+        //  dump($productCat);
+        //  dump($productCatName);
+
+         return $this->display(__FILE__, 'views/templates/hook/mimodulo.tpl');
+
        
         
-        dump($params['product']);
 
-        $product->context->smarty->$params['product'];
+    
 
-        dump($product);
+
         
 
         // $this->context->smarty->assign(array(

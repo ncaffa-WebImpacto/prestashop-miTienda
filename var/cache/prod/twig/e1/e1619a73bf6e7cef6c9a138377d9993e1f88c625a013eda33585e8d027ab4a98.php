@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* __string_template__081453859d916e2229b1b73fbd9c9a0faea67cd60c85001f30c41cde442c6983 */
-class __TwigTemplate_61a6efd885cc99f193b512f8385b844d65a4585cbfaa2edb77fe4c49bf77dfc9 extends \Twig\Template
+/* __string_template__2cec205204439cffe9a7af058868025afafbfb6bd4750a98489081132be5e9dc */
+class __TwigTemplate_d9cee540d16e553eb522611ffdc2cc85bba0708257df83e63330bf404e581da2 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -47,10 +47,10 @@ class __TwigTemplate_61a6efd885cc99f193b512f8385b844d65a4585cbfaa2edb77fe4c49bf7
 <link rel=\"icon\" type=\"image/x-icon\" href=\"/mitienda/img/favicon.ico\" />
 <link rel=\"apple-touch-icon\" href=\"/mitienda/img/app_icon.png\" />
 
-<title>Posiciones • mitienda</title>
+<title>Rendimiento • mitienda</title>
 
   <script type=\"text/javascript\">
-    var help_class_name = 'AdminModulesPositions';
+    var help_class_name = 'AdminPerformance';
     var iso_user = 'es';
     var lang_is_rtl = '0';
     var full_language_code = 'es';
@@ -68,18 +68,18 @@ class __TwigTemplate_61a6efd885cc99f193b512f8385b844d65a4585cbfaa2edb77fe4c49bf7
     var customer_name_msg = 'Nombre del cliente: ';
     var new_msg = 'Un nuevo mensaje ha sido publicado en tu tienda.';
     var see_msg = 'Leer este mensaje';
-    var token = '51f1e7edb2ede6c1448d203bf3a6ac36';
+    var token = '42060ff3636900ab0eb715b481472b91';
     var token_admin_orders = '632d5e121dc4cc323351472a62237172';
     var token_admin_customers = '9c0f1efa22aa3a1e3bc435556431d6f0';
     var token_admin_customer_threads = 'a2d896becd4bd17092deb040a2fde3f3';
-    var currentIndex = 'index.php?controller=AdminModulesPositions';
+    var currentIndex = 'index.php?controller=AdminPerformance';
     var employee_token = 'c5dc4bcc9ef9fb663133f7aaf6c7ea82';
     var choose_language_translate = 'Selecciona el idioma';
     var default_language = '1';
-    var admin_modules_link = '/mitienda/admin260f4hauq/index.php/improve/modules/catalog/recommended?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY';
-    var admin_notification_get_link = '/mitienda/admin260f4hauq/index.php/common/notifications?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY';
-    var admin_notification_push_link = '/mitienda/admin260f4hauq/index.php/common/notifications/ack?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY';
-    var tab_modules_list = '';
+    var admin_modules_link = '/mitienda/admin260f4hauq/index.php/improve/modules/catalog/recommended?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws';
+    var admin_notification_get_link = '/mitienda/admin260f4hauq/index.php/common/notifications?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws';
+    var admin_notification_push_link = '/mitienda/admin260f4hauq/index.php/common/notifications/ack?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws';
+    var tab_modules_list = 'a2hosting,oneandonehosting,ns8csp,jmango360_api';
     var update_success_msg = 'Actualización correcta';
     var errorLogin = 'PrestaShop no pudo iniciar sesión en Addons. Por favor verifica tus datos de acceso y tu conexión de Internet.';
     var search_product_msg = 'Buscar un producto';
@@ -96,7 +96,7 @@ class __TwigTemplate_61a6efd885cc99f193b512f8385b844d65a4585cbfaa2edb77fe4c49bf7
   <script type=\"text/javascript\">
 var baseAdminDir = \"\\/mitienda\\/admin260f4hauq\\/\";
 var baseDir = \"\\/mitienda\\/\";
-var changeFormLanguageUrl = \"\\/mitienda\\/admin260f4hauq\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\";
+var changeFormLanguageUrl = \"\\/mitienda\\/admin260f4hauq\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\";
 var currency = {\"iso_code\":\"EUR\",\"sign\":\"\\u20ac\",\"name\":\"Euro\",\"format\":null};
 var currency_specifications = {\"symbol\":[\",\",\".\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"currencyCode\":\"EUR\",\"currencySymbol\":\"\\u20ac\",\"positivePattern\":\"#,##0.00\\u00a0\\u00a4\",\"negativePattern\":\"-#,##0.00\\u00a0\\u00a4\",\"maxFractionDigits\":2,\"minFractionDigits\":2,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
 var host_mode = false;
@@ -126,7 +126,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
         $this->displayBlock('extra_stylesheets', $context, $blocks);
         echo "</head>
 
-<body class=\"lang-es adminmodulespositions\">
+<body class=\"lang-es adminperformance\">
 
   <header id=\"header\">
 
@@ -171,13 +171,13 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
           <a
         class=\"dropdown-item js-quick-link\"
         href=\"#\"
-        data-rand=\"65\"
-        data-icon=\"icon-AdminParentThemes\"
+        data-rand=\"56\"
+        data-icon=\"icon-AdminAdvancedParameters\"
         data-method=\"add\"
-        data-url=\"index.php/improve/design/modules/positions/?&conf=16\"
+        data-url=\"index.php/configure/advanced/performance\"
         data-post-link=\"http://localhost/mitienda/admin260f4hauq/index.php?controller=AdminQuickAccesses&token=f9383c09b1fb186204eb77bbf15ab2e3\"
         data-prompt-text=\"Por favor, renombre este acceso rápido:\"
-        data-link=\"Posiciones - Lista\"
+        data-link=\"Rendimiento - Lista\"
       >
         <i class=\"material-icons\">add_circle</i>
         Añadir esta página a Acceso rápido
@@ -290,21 +290,21 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                           <div class=\"tab-pane active empty\" id=\"orders-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No hay pedidos nuevos por ahora :(<br>
-              ¿Has revisado tus <strong><a href=\"http://localhost/mitienda/admin260f4hauq/index.php?controller=AdminCarts&action=filterOnlyAbandonedCarts&token=bffbe881fbc46dea61b23ed3a42b90cc\">carritos abandonados</a></strong>?<br>?. ¡Tu próximo pedido podría estar ocultándose allí!
+              ¿Has comprobado recientemente la tasa de conversión?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
                                     <div class=\"tab-pane  empty\" id=\"customers-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No hay clientes nuevos por ahora :(<br>
-              ¿Se mantiene activo en las redes sociales en estos momentos?
+              ¿Te has planteado vender en marketplaces?
             </p>
             <div class=\"notification-elements\"></div>
           </div>
                                     <div class=\"tab-pane  empty\" id=\"messages-notifications\" role=\"tabpanel\">
             <p class=\"no-notification\">
               No hay mensajes nuevo por ahora.<br>
-              ¡Eso significa más tiempo para otras cosas!
+              Parece que todos tus clientes están contentos :)
             </p>
             <div class=\"notification-elements\"></div>
           </div>
@@ -347,7 +347,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
       
       <span class=\"employee_avatar\"><img class=\"avatar rounded-circle\" src=\"http://profile.prestashop.com/ncaffa%40webimpacto.es.jpg\" /></span>
       <span class=\"employee_profile\">Bienvenido de nuevo, Nicolás caffa</span>
-      <a class=\"dropdown-item employee-link profile-link\" href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/employees/1/edit?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\">
+      <a class=\"dropdown-item employee-link profile-link\" href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/employees/1/edit?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\">
       <i class=\"material-icons\">settings</i>
       Tu perfil
     </a>
@@ -372,7 +372,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
       </header>
 
   <nav class=\"nav-bar d-none d-md-block\">
-  <span class=\"menu-collapse\" data-toggle-url=\"/mitienda/admin260f4hauq/index.php/configure/advanced/employees/toggle-navigation?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\">
+  <span class=\"menu-collapse\" data-toggle-url=\"/mitienda/admin260f4hauq/index.php/configure/advanced/employees/toggle-navigation?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\">
     <i class=\"material-icons\">chevron_left</i>
     <i class=\"material-icons\">chevron_left</i>
   </span>
@@ -425,7 +425,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"5\" id=\"subtab-AdminInvoices\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/orders/invoices/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Facturas
+                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/orders/invoices/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Facturas
                               </a>
                             </li>
 
@@ -441,7 +441,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"7\" id=\"subtab-AdminDeliverySlip\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/orders/delivery-slips/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Albaranes de entrega
+                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/orders/delivery-slips/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Albaranes de entrega
                               </a>
                             </li>
 
@@ -460,7 +460,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"9\" id=\"subtab-AdminCatalog\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/products?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/products?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-store\">store</i>
                     <span>
                     Catálogo
@@ -474,7 +474,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"10\" id=\"subtab-AdminProducts\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/products?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Productos
+                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/products?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Productos
                               </a>
                             </li>
 
@@ -482,7 +482,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"11\" id=\"subtab-AdminCategories\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/categories?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Categorías
+                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/categories?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Categorías
                               </a>
                             </li>
 
@@ -506,7 +506,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"16\" id=\"subtab-AdminParentManufacturers\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/brands/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Marcas y Proveedores
+                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/catalog/brands/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Marcas y Proveedores
                               </a>
                             </li>
 
@@ -530,7 +530,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"23\" id=\"subtab-AdminStockManagement\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/stocks/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Stocks
+                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/stocks/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Stocks
                               </a>
                             </li>
 
@@ -541,7 +541,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"24\" id=\"subtab-AdminParentCustomer\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/sell/customers/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/sell/customers/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-account_circle\">account_circle</i>
                     <span>
                     Clientes
@@ -555,7 +555,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"25\" id=\"subtab-AdminCustomers\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/customers/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Clientes
+                              <a href=\"/mitienda/admin260f4hauq/index.php/sell/customers/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Clientes
                               </a>
                             </li>
 
@@ -631,7 +631,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                   
                 
         
-          <li class=\"category-title -active\" data-submenu=\"42\" id=\"tab-IMPROVE\">
+          <li class=\"category-title \" data-submenu=\"42\" id=\"tab-IMPROVE\">
               <span class=\"title\">Personalizar</span>
           </li>
 
@@ -640,7 +640,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/modules/manage?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/modules/manage?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-extension\">extension</i>
                     <span>
                     Módulos
@@ -654,7 +654,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/modules/manage?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Module Manager
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/modules/manage?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Module Manager
                               </a>
                             </li>
 
@@ -671,15 +671,15 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                         
                 
                                                 
-                                                    
-                <li class=\"link-levelone has_submenu -active open ul-open\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/themes/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                
+                <li class=\"link-levelone has_submenu\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/themes/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-desktop_mac\">desktop_mac</i>
                     <span>
                     Diseño
                     </span>
                                                 <i class=\"material-icons sub-tabs-arrow\">
-                                                                keyboard_arrow_up
+                                                                keyboard_arrow_down
                                                         </i>
                                         </a>
                                           <ul id=\"collapse-52\" class=\"submenu panel-collapse\">
@@ -687,7 +687,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"126\" id=\"subtab-AdminThemesParent\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/themes/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Tema y logotipo
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/themes/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Tema y logotipo
                               </a>
                             </li>
 
@@ -703,7 +703,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"55\" id=\"subtab-AdminParentMailTheme\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/mail_theme/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Tema Email
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/mail_theme/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Tema Email
                               </a>
                             </li>
 
@@ -711,15 +711,15 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"57\" id=\"subtab-AdminCmsContent\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/cms-pages/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Páginas
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/cms-pages/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Páginas
                               </a>
                             </li>
 
                                                                             
                             
                                                         
-                            <li class=\"link-leveltwo -active\" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/modules/positions/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Posiciones
+                            <li class=\"link-leveltwo \" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/modules/positions/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Posiciones
                               </a>
                             </li>
 
@@ -735,7 +735,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"125\" id=\"subtab-AdminLinkWidget\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/modules/link-widget/list?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Link Widget
+                              <a href=\"/mitienda/admin260f4hauq/index.php/modules/link-widget/list?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Link Widget
                               </a>
                             </li>
 
@@ -784,7 +784,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"62\" id=\"subtab-AdminShipping\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/shipping/preferences?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Preferencias
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/shipping/preferences?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Preferencias
                               </a>
                             </li>
 
@@ -795,7 +795,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"63\" id=\"subtab-AdminParentPayment\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/payment/payment_methods?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/payment/payment_methods?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-payment\">payment</i>
                     <span>
                     Pago
@@ -809,7 +809,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"64\" id=\"subtab-AdminPayment\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/payment/payment_methods?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Métodos de pago
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/payment/payment_methods?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Métodos de pago
                               </a>
                             </li>
 
@@ -817,7 +817,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"65\" id=\"subtab-AdminPaymentPreferences\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/payment/preferences?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Preferencias
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/payment/preferences?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Preferencias
                               </a>
                             </li>
 
@@ -828,7 +828,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"66\" id=\"subtab-AdminInternational\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/localization/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/localization/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-language\">language</i>
                     <span>
                     Internacional
@@ -842,7 +842,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"67\" id=\"subtab-AdminParentLocalization\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/localization/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Localización
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/localization/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Localización
                               </a>
                             </li>
 
@@ -858,7 +858,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"76\" id=\"subtab-AdminParentTaxes\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/taxes/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Impuestos
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/taxes/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Impuestos
                               </a>
                             </li>
 
@@ -866,7 +866,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"79\" id=\"subtab-AdminTranslations\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/translations/settings?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Traducciones
+                              <a href=\"/mitienda/admin260f4hauq/index.php/improve/international/translations/settings?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Traducciones
                               </a>
                             </li>
 
@@ -950,7 +950,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                   
                 
         
-          <li class=\"category-title \" data-submenu=\"80\" id=\"tab-CONFIGURE\">
+          <li class=\"category-title -active\" data-submenu=\"80\" id=\"tab-CONFIGURE\">
               <span class=\"title\">Configurar</span>
           </li>
 
@@ -959,7 +959,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                                 
                 
                 <li class=\"link-levelone has_submenu\" data-submenu=\"81\" id=\"subtab-ShopParameters\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/preferences/preferences?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/preferences/preferences?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-settings\">settings</i>
                     <span>
                     Parámetros de la tienda
@@ -973,7 +973,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"82\" id=\"subtab-AdminParentPreferences\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/preferences/preferences?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Configuración
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/preferences/preferences?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Configuración
                               </a>
                             </li>
 
@@ -981,7 +981,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"85\" id=\"subtab-AdminParentOrderPreferences\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/order-preferences/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Configuración de Pedidos
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/order-preferences/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Configuración de Pedidos
                               </a>
                             </li>
 
@@ -989,7 +989,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"88\" id=\"subtab-AdminPPreferences\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/product-preferences/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Configuración de Productos
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/product-preferences/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Configuración de Productos
                               </a>
                             </li>
 
@@ -997,7 +997,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"89\" id=\"subtab-AdminParentCustomerPreferences\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/customer-preferences/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Ajustes sobre clientes
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/customer-preferences/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Ajustes sobre clientes
                               </a>
                             </li>
 
@@ -1005,7 +1005,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"93\" id=\"subtab-AdminParentStores\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/contacts/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Contacto
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/contacts/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Contacto
                               </a>
                             </li>
 
@@ -1013,7 +1013,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"96\" id=\"subtab-AdminParentMeta\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/seo-urls/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Tráfico &amp; SEO
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/shop/seo-urls/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Tráfico &amp; SEO
                               </a>
                             </li>
 
@@ -1038,15 +1038,15 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                                         
                 
                                                 
-                
-                <li class=\"link-levelone has_submenu\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
-                  <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/system-information/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\">
+                                                    
+                <li class=\"link-levelone has_submenu -active open ul-open\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
+                  <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/system-information/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\">
                     <i class=\"material-icons mi-settings_applications\">settings_applications</i>
                     <span>
                     Parámetros Avanzados
                     </span>
                                                 <i class=\"material-icons sub-tabs-arrow\">
-                                                                keyboard_arrow_down
+                                                                keyboard_arrow_up
                                                         </i>
                                         </a>
                                           <ul id=\"collapse-103\" class=\"submenu panel-collapse\">
@@ -1054,15 +1054,15 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"104\" id=\"subtab-AdminInformation\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/system-information/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Información
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/system-information/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Información
                               </a>
                             </li>
 
                                                                             
                             
                                                         
-                            <li class=\"link-leveltwo \" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/performance/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Rendimiento
+                            <li class=\"link-leveltwo -active\" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/performance/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Rendimiento
                               </a>
                             </li>
 
@@ -1070,7 +1070,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"106\" id=\"subtab-AdminAdminPreferences\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/administration/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Administración
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/administration/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Administración
                               </a>
                             </li>
 
@@ -1078,7 +1078,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"107\" id=\"subtab-AdminEmails\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/emails/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Dirección de correo electrónico
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/emails/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Dirección de correo electrónico
                               </a>
                             </li>
 
@@ -1086,7 +1086,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"108\" id=\"subtab-AdminImport\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/import/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Importar
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/import/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Importar
                               </a>
                             </li>
 
@@ -1094,7 +1094,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"109\" id=\"subtab-AdminParentEmployees\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/employees/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Equipo
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/employees/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Equipo
                               </a>
                             </li>
 
@@ -1102,7 +1102,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"113\" id=\"subtab-AdminParentRequestSql\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/sql-requests/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Base de datos
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/sql-requests/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Base de datos
                               </a>
                             </li>
 
@@ -1110,7 +1110,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"116\" id=\"subtab-AdminLogs\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/logs/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Registros/Logs
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/logs/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Registros/Logs
                               </a>
                             </li>
 
@@ -1118,7 +1118,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"117\" id=\"subtab-AdminWebservice\">
-                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/webservice-keys/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" class=\"link\"> Webservice
+                              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/webservice-keys/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" class=\"link\"> Webservice
                               </a>
                             </li>
 
@@ -1155,10 +1155,10 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
     
       <nav aria-label=\"Breadcrumb\">
         <ol class=\"breadcrumb\">
-                      <li class=\"breadcrumb-item\">Diseño</li>
+                      <li class=\"breadcrumb-item\">Parámetros Avanzados</li>
           
                       <li class=\"breadcrumb-item active\">
-              <a href=\"/mitienda/admin260f4hauq/index.php/improve/design/modules/positions/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\" aria-current=\"page\">Posiciones</a>
+              <a href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/performance/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\" aria-current=\"page\">Rendimiento</a>
             </li>
                   </ol>
       </nav>
@@ -1167,7 +1167,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
     <div class=\"title-row\">
       
           <h1 class=\"title\">
-            Posiciones          </h1>
+            Rendimiento          </h1>
       
 
       
@@ -1179,7 +1179,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
     
     var isSymfonyContext = true;
     var admin_module_ajax_url_psmbo = 'http://localhost/mitienda/admin260f4hauq/index.php?controller=AdminPsMboModule&token=a1c1b7bd525410768ba273332c18caf9';
-    var controller = 'AdminModulesPositions';
+    var controller = 'AdminPerformance';
     
     if (isSymfonyContext === false) {
         
@@ -1240,18 +1240,25 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
 \t
 </script>
 
-                                                          <a
-                  class=\"btn btn-primary  pointer\"                  id=\"page-header-desc-configuration-save\"
-                  href=\"http://localhost/mitienda/admin260f4hauq/index.php?controller=AdminModulesPositions&amp;addToHook=&amp;token=51f1e7edb2ede6c1448d203bf3a6ac36\"                  title=\"Insertar un módulo\"                >
-                                    Insertar un módulo
+                                                                                    <a
+                  class=\"btn btn-primary  pointer\"                  id=\"page-header-desc-configuration-clear_cache\"
+                  href=\"/mitienda/admin260f4hauq/index.php/configure/advanced/performance/clear-cache?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\"                  title=\"Borrar la caché\"                >
+                  <i class=\"material-icons\">delete</i>                  Borrar la caché
                 </a>
-                                      
+                                                                  <a
+                class=\"btn btn-outline-secondary \"
+                id=\"page-header-desc-configuration-modules-list\"
+                href=\"/mitienda/admin260f4hauq/index.php/improve/modules/catalog?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\"                title=\"Módulos recomendados\"
+                              >
+                Módulos recomendados
+              </a>
+            
             
                               <a class=\"btn btn-outline-secondary btn-help btn-sidebar\" href=\"#\"
                    title=\"Ayuda\"
                    data-toggle=\"sidebar\"
                    data-target=\"#right-sidebar\"
-                   data-url=\"/mitienda/admin260f4hauq/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fes%252Fdoc%252FAdminModulesPositions%253Fversion%253D1.7.6.5%2526country%253Des/Ayuda?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\"
+                   data-url=\"/mitienda/admin260f4hauq/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fes%252Fdoc%252FAdminPerformance%253Fversion%253D1.7.6.5%2526country%253Des/Ayuda?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\"
                    id=\"product_form_open_help\"
                 >
                   Ayuda
@@ -1310,7 +1317,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
   var onBoarding;
 
   \$(function(){
-    onBoarding = new OnBoarding(0, {\"groups\":[{\"steps\":[{\"type\":\"popup\",\"text\":\"<div class=\\\"onboarding-welcome\\\">\\n  <i class=\\\"material-icons onboarding-button-shut-down\\\">close<\\/i>\\n  <p class=\\\"welcome\\\">\\u00a1Bienvenido a su tienda!<\\/p>\\n  <div class=\\\"content\\\">\\n    <p>\\u00a1Hola! Me llamo Presto y estoy aqu\\u00ed para ense\\u00f1arle todo esto.<\\/p>\\n    <p>Descubrir\\u00e1 algunos pasos esenciales antes de poder lanzar su tienda:\\n    Cree su primer producto, personalice su tienda, configure env\\u00edos y pagos...<\\/p>\\n  <\\/div>\\n  <div class=\\\"started\\\">\\n    <p>\\u00a1Empecemos!<\\/p>\\n  <\\/div>\\n  <div class=\\\"buttons\\\">\\n    <button class=\\\"btn btn-tertiary-outline btn-lg onboarding-button-shut-down\\\">M\\u00e1s tarde<\\/button>\\n    <button class=\\\"blue-balloon btn btn-primary btn-lg with-spinner onboarding-button-next\\\">Empezar<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"http:\\/\\/localhost\\/mitienda\\/admin260f4hauq\\/index.php?controller=AdminDashboard&token=14c89e98e602d7193caf121dc0432437\"}]},{\"title\":\"Vamos a crear su primer producto\",\"subtitle\":{\"1\":\"\\u00bfQu\\u00e9 quiere contar sobre el producto? Piense en lo que sus clientes quieren saber.\",\"2\":\"A\\u00f1ada informaci\\u00f3n clara y atractiva. No se preocupe, podr\\u00e1 editarlo m\\u00e1s tarde :)\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Dele a su producto un nombre atractivo.\",\"options\":[\"savepoint\"],\"page\":[\"\\/mitienda\\/admin260f4hauq\\/index.php\\/sell\\/catalog\\/products\\/new?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\",\"index.php\\/sell\\/catalog\\/products\\/.+\"],\"selector\":\"#form_step1_name_1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Complete los detalles esenciales en esta pesta\\u00f1a. Las otras pesta\\u00f1as son para informaci\\u00f3n m\\u00e1s avanzada.\",\"page\":\"index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#tab_step1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"\\u00a1A\\u00f1ada una o m\\u00e1s im\\u00e1genes para que su producto atraiga la atenci\\u00f3n!\",\"page\":\"index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#product-images-dropzone\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"\\u00bfA qu\\u00e9 precio quiere venderlo?\",\"page\":\"index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\".right-column > .row > .col-md-12 > .form-group:nth-child(4) > .row > .col-md-6:first-child > .input-group\",\"position\":\"left\",\"action\":{\"selector\":\"#product_form_save_go_to_catalog_btn\",\"action\":\"click\"}},{\"type\":\"tooltip\",\"text\":\"\\u00a1Genial! Acaba de crear su primer producto. Tiene buena pinta, \\u00bfverdad?\",\"page\":\"index.php\\/sell\\/catalog\\/products\",\"selector\":\"#product_catalog_list table tr:first-child td:nth-child(3)\",\"position\":\"left\"}]},{\"title\":\"Dele a su tienda su propia identidad\",\"subtitle\":{\"1\":\"\\u00bfQu\\u00e9 aspecto quiere para su tienda? \\u00bfQu\\u00e9 la hace especial?\",\"2\":\"Personalice su tema o escoja el mejor dise\\u00f1o de nuestro cat\\u00e1logo de temas.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"\\u00a1Una buena manera de empezar es a\\u00f1adir su propio logotipo aqu\\u00ed!\",\"options\":[\"savepoint\"],\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/design\\/themes\\/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\",\"selector\":\"#form_shop_logos_header_logo\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Si quiere algo realmente especial, \\u00a1eche un vistazo al cat\\u00e1logo de temas!\",\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/design\\/themes-catalog\\/?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\",\"selector\":\".addons-theme-one:first-child\",\"position\":\"right\"}]},{\"title\":\"Prepara tu tienda para recibir pagos\",\"subtitle\":{\"1\":\"\\u00bfC\\u00f3mo quiere que le paguen sus clientes?\",\"2\":\"Adapte su oferta al mercado: \\u00a1a\\u00f1ada los m\\u00e9todos de pago m\\u00e1s populares para sus clientes!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Estos m\\u00e9todos de pago ya est\\u00e1n disponibles para tus clientes.\",\"options\":[\"savepoint\"],\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/payment\\/payment_methods?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\",\"selector\":\".modules_list_container_tab:first tr:first-child .text-muted, .card:eq(0) .text-muted:eq(0)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"\\u00a1Y puede escoger y a\\u00f1adir otros m\\u00e9todos de pago desde aqu\\u00ed!\",\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/payment\\/payment_methods?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\",\"selector\":\".panel:eq(1) table tr:eq(0) td:eq(1), .card:eq(1) .module-item-list div:eq(0) div:eq(1)\",\"position\":\"top\"}]},{\"title\":\"Elija sus soluciones de env\\u00edo\",\"subtitle\":{\"1\":\"\\u00bfC\\u00f3mo quiere enviar sus productos?\",\"2\":\"\\u00a1Seleccione las soluciones de env\\u00edo que mejor se adapten a sus clientes! Cree su propio transporte o a\\u00f1ada un m\\u00f3dulo listo para usar.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Aqu\\u00ed est\\u00e1n los m\\u00e9todos de env\\u00edo disponibles en su tienda ahora mismo.\",\"options\":[\"savepoint\"],\"page\":\"http:\\/\\/localhost\\/mitienda\\/admin260f4hauq\\/index.php?controller=AdminCarriers&token=3b141a013d09b13e14fa8ce27be58f40\",\"selector\":\"#table-carrier tr:eq(2) td:eq(3)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Puede ofrecer m\\u00e1s opciones de env\\u00edo configurando transportistas adicionales\",\"page\":\"http:\\/\\/localhost\\/mitienda\\/admin260f4hauq\\/index.php?controller=AdminCarriers&token=3b141a013d09b13e14fa8ce27be58f40\",\"selector\":\".modules_list_container_tab tr:eq(0) .text-muted\",\"position\":\"right\"}]},{\"title\":\"Mejore su tienda con m\\u00f3dulos\",\"subtitle\":{\"1\":\"A\\u00f1ada nuevas caracter\\u00edsticas y gestione las que ya existen gracias a los m\\u00f3dulos.\",\"2\":\"Algunos m\\u00f3dulos ya est\\u00e1n preinstalados, otros son m\\u00f3dulos gratuitos o de pago - \\u00a1navega por nuestra selecci\\u00f3n y descubre los que est\\u00e1n disponibles!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Descubra nuestra selecci\\u00f3n de m\\u00f3dulos en la primera pesta\\u00f1a. Administre sus m\\u00f3dulos en la segunda y siga las notificaciones en la tercera pesta\\u00f1a.\",\"options\":[\"savepoint\"],\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/modules\\/catalog?_token=iIr6U82c3MnYIPiaZLFs96Q4Y8UHn1xPSw6Bon2KefY\",\"selector\":\".page-head-tabs .tab:eq(0)\",\"position\":\"right\"},{\"type\":\"popup\",\"text\":\"<div id=\\\"onboarding-welcome\\\" class=\\\"modal-body\\\">\\n    <div class=\\\"col-12\\\">\\n        <button class=\\\"onboarding-button-next pull-right close\\\" type=\\\"button\\\">&times;<\\/button>\\n        <h2 class=\\\"text-center text-md-center\\\">\\u00a1Es su turno!<\\/h2>\\n    <\\/div>\\n    <div class=\\\"col-12\\\">\\n        <p class=\\\"text-center text-md-center\\\">\\n          Ha visto lo esencial, pero hay mucho m\\u00e1s por explorar.<br \\/>\\n          Algunos recursos pueden ayudarle a profundizar aun m\\u00e1s:\\n        <\\/p>\\n        <div class=\\\"container-fluid\\\">\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6  justify-content-center text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"http:\\/\\/doc.prestashop.com\\/display\\/PS17\\/Getting+Started\\\" target=\\\"_blank\\\">\\n                <div class=\\\"starter-guide\\\"><\\/div>\\n                <span class=\\\"link\\\">Gu\\u00eda de principiante<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/forums\\/\\\" target=\\\"_blank\\\">\\n                <div class=\\\"forum\\\"><\\/div>\\n                <span class=\\\"link\\\">Foro<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/en\\/training-prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"training\\\"><\\/div>\\n                <span class=\\\"link\\\">Formaci\\u00f3n<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.youtube.com\\/user\\/prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"video-tutorial\\\"><\\/div>\\n                <span class=\\\"link\\\">Tutorial en v\\u00eddeo<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n        <\\/div>\\n    <\\/div>\\n    <div class=\\\"modal-footer\\\">\\n        <div class=\\\"col-12\\\">\\n            <div class=\\\"text-center text-md-center\\\">\\n                <button class=\\\"btn btn-primary onboarding-button-next\\\">Estoy listo<\\/button>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"index.php\\/improve\\/modules\\/catalog\"}]}]}, 1, \"http://localhost/mitienda/admin260f4hauq/index.php?controller=AdminWelcome&token=ee159a889a97b58c9331e20c92e9bc07\", baseAdminDir);
+    onBoarding = new OnBoarding(0, {\"groups\":[{\"steps\":[{\"type\":\"popup\",\"text\":\"<div class=\\\"onboarding-welcome\\\">\\n  <i class=\\\"material-icons onboarding-button-shut-down\\\">close<\\/i>\\n  <p class=\\\"welcome\\\">\\u00a1Bienvenido a su tienda!<\\/p>\\n  <div class=\\\"content\\\">\\n    <p>\\u00a1Hola! Me llamo Presto y estoy aqu\\u00ed para ense\\u00f1arle todo esto.<\\/p>\\n    <p>Descubrir\\u00e1 algunos pasos esenciales antes de poder lanzar su tienda:\\n    Cree su primer producto, personalice su tienda, configure env\\u00edos y pagos...<\\/p>\\n  <\\/div>\\n  <div class=\\\"started\\\">\\n    <p>\\u00a1Empecemos!<\\/p>\\n  <\\/div>\\n  <div class=\\\"buttons\\\">\\n    <button class=\\\"btn btn-tertiary-outline btn-lg onboarding-button-shut-down\\\">M\\u00e1s tarde<\\/button>\\n    <button class=\\\"blue-balloon btn btn-primary btn-lg with-spinner onboarding-button-next\\\">Empezar<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"http:\\/\\/localhost\\/mitienda\\/admin260f4hauq\\/index.php?controller=AdminDashboard&token=14c89e98e602d7193caf121dc0432437\"}]},{\"title\":\"Vamos a crear su primer producto\",\"subtitle\":{\"1\":\"\\u00bfQu\\u00e9 quiere contar sobre el producto? Piense en lo que sus clientes quieren saber.\",\"2\":\"A\\u00f1ada informaci\\u00f3n clara y atractiva. No se preocupe, podr\\u00e1 editarlo m\\u00e1s tarde :)\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Dele a su producto un nombre atractivo.\",\"options\":[\"savepoint\"],\"page\":[\"\\/mitienda\\/admin260f4hauq\\/index.php\\/sell\\/catalog\\/products\\/new?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\",\"index.php\\/sell\\/catalog\\/products\\/.+\"],\"selector\":\"#form_step1_name_1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Complete los detalles esenciales en esta pesta\\u00f1a. Las otras pesta\\u00f1as son para informaci\\u00f3n m\\u00e1s avanzada.\",\"page\":\"index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#tab_step1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"\\u00a1A\\u00f1ada una o m\\u00e1s im\\u00e1genes para que su producto atraiga la atenci\\u00f3n!\",\"page\":\"index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\"#product-images-dropzone\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"\\u00bfA qu\\u00e9 precio quiere venderlo?\",\"page\":\"index.php\\/sell\\/catalog\\/products\\/.+\",\"selector\":\".right-column > .row > .col-md-12 > .form-group:nth-child(4) > .row > .col-md-6:first-child > .input-group\",\"position\":\"left\",\"action\":{\"selector\":\"#product_form_save_go_to_catalog_btn\",\"action\":\"click\"}},{\"type\":\"tooltip\",\"text\":\"\\u00a1Genial! Acaba de crear su primer producto. Tiene buena pinta, \\u00bfverdad?\",\"page\":\"index.php\\/sell\\/catalog\\/products\",\"selector\":\"#product_catalog_list table tr:first-child td:nth-child(3)\",\"position\":\"left\"}]},{\"title\":\"Dele a su tienda su propia identidad\",\"subtitle\":{\"1\":\"\\u00bfQu\\u00e9 aspecto quiere para su tienda? \\u00bfQu\\u00e9 la hace especial?\",\"2\":\"Personalice su tema o escoja el mejor dise\\u00f1o de nuestro cat\\u00e1logo de temas.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"\\u00a1Una buena manera de empezar es a\\u00f1adir su propio logotipo aqu\\u00ed!\",\"options\":[\"savepoint\"],\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/design\\/themes\\/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\",\"selector\":\"#form_shop_logos_header_logo\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Si quiere algo realmente especial, \\u00a1eche un vistazo al cat\\u00e1logo de temas!\",\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/design\\/themes-catalog\\/?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\",\"selector\":\".addons-theme-one:first-child\",\"position\":\"right\"}]},{\"title\":\"Prepara tu tienda para recibir pagos\",\"subtitle\":{\"1\":\"\\u00bfC\\u00f3mo quiere que le paguen sus clientes?\",\"2\":\"Adapte su oferta al mercado: \\u00a1a\\u00f1ada los m\\u00e9todos de pago m\\u00e1s populares para sus clientes!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Estos m\\u00e9todos de pago ya est\\u00e1n disponibles para tus clientes.\",\"options\":[\"savepoint\"],\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/payment\\/payment_methods?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\",\"selector\":\".modules_list_container_tab:first tr:first-child .text-muted, .card:eq(0) .text-muted:eq(0)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"\\u00a1Y puede escoger y a\\u00f1adir otros m\\u00e9todos de pago desde aqu\\u00ed!\",\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/payment\\/payment_methods?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\",\"selector\":\".panel:eq(1) table tr:eq(0) td:eq(1), .card:eq(1) .module-item-list div:eq(0) div:eq(1)\",\"position\":\"top\"}]},{\"title\":\"Elija sus soluciones de env\\u00edo\",\"subtitle\":{\"1\":\"\\u00bfC\\u00f3mo quiere enviar sus productos?\",\"2\":\"\\u00a1Seleccione las soluciones de env\\u00edo que mejor se adapten a sus clientes! Cree su propio transporte o a\\u00f1ada un m\\u00f3dulo listo para usar.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Aqu\\u00ed est\\u00e1n los m\\u00e9todos de env\\u00edo disponibles en su tienda ahora mismo.\",\"options\":[\"savepoint\"],\"page\":\"http:\\/\\/localhost\\/mitienda\\/admin260f4hauq\\/index.php?controller=AdminCarriers&token=3b141a013d09b13e14fa8ce27be58f40\",\"selector\":\"#table-carrier tr:eq(2) td:eq(3)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Puede ofrecer m\\u00e1s opciones de env\\u00edo configurando transportistas adicionales\",\"page\":\"http:\\/\\/localhost\\/mitienda\\/admin260f4hauq\\/index.php?controller=AdminCarriers&token=3b141a013d09b13e14fa8ce27be58f40\",\"selector\":\".modules_list_container_tab tr:eq(0) .text-muted\",\"position\":\"right\"}]},{\"title\":\"Mejore su tienda con m\\u00f3dulos\",\"subtitle\":{\"1\":\"A\\u00f1ada nuevas caracter\\u00edsticas y gestione las que ya existen gracias a los m\\u00f3dulos.\",\"2\":\"Algunos m\\u00f3dulos ya est\\u00e1n preinstalados, otros son m\\u00f3dulos gratuitos o de pago - \\u00a1navega por nuestra selecci\\u00f3n y descubre los que est\\u00e1n disponibles!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Descubra nuestra selecci\\u00f3n de m\\u00f3dulos en la primera pesta\\u00f1a. Administre sus m\\u00f3dulos en la segunda y siga las notificaciones en la tercera pesta\\u00f1a.\",\"options\":[\"savepoint\"],\"page\":\"\\/mitienda\\/admin260f4hauq\\/index.php\\/improve\\/modules\\/catalog?_token=x2IxfmF8rPzIqvhH5ycqEif3e17TmcaEB41ja4B11Ws\",\"selector\":\".page-head-tabs .tab:eq(0)\",\"position\":\"right\"},{\"type\":\"popup\",\"text\":\"<div id=\\\"onboarding-welcome\\\" class=\\\"modal-body\\\">\\n    <div class=\\\"col-12\\\">\\n        <button class=\\\"onboarding-button-next pull-right close\\\" type=\\\"button\\\">&times;<\\/button>\\n        <h2 class=\\\"text-center text-md-center\\\">\\u00a1Es su turno!<\\/h2>\\n    <\\/div>\\n    <div class=\\\"col-12\\\">\\n        <p class=\\\"text-center text-md-center\\\">\\n          Ha visto lo esencial, pero hay mucho m\\u00e1s por explorar.<br \\/>\\n          Algunos recursos pueden ayudarle a profundizar aun m\\u00e1s:\\n        <\\/p>\\n        <div class=\\\"container-fluid\\\">\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6  justify-content-center text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"http:\\/\\/doc.prestashop.com\\/display\\/PS17\\/Getting+Started\\\" target=\\\"_blank\\\">\\n                <div class=\\\"starter-guide\\\"><\\/div>\\n                <span class=\\\"link\\\">Gu\\u00eda de principiante<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/forums\\/\\\" target=\\\"_blank\\\">\\n                <div class=\\\"forum\\\"><\\/div>\\n                <span class=\\\"link\\\">Foro<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n          <div class=\\\"row\\\">\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/en\\/training-prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"training\\\"><\\/div>\\n                <span class=\\\"link\\\">Formaci\\u00f3n<\\/span>\\n              <\\/a>\\n            <\\/div>\\n            <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n              <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.youtube.com\\/user\\/prestashop\\\" target=\\\"_blank\\\">\\n                <div class=\\\"video-tutorial\\\"><\\/div>\\n                <span class=\\\"link\\\">Tutorial en v\\u00eddeo<\\/span>\\n              <\\/a>\\n            <\\/div>\\n          <\\/div>\\n        <\\/div>\\n    <\\/div>\\n    <div class=\\\"modal-footer\\\">\\n        <div class=\\\"col-12\\\">\\n            <div class=\\\"text-center text-md-center\\\">\\n                <button class=\\\"btn btn-primary onboarding-button-next\\\">Estoy listo<\\/button>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"index.php\\/improve\\/modules\\/catalog\"}]}]}, 1, \"http://localhost/mitienda/admin260f4hauq/index.php?controller=AdminWelcome&token=ee159a889a97b58c9331e20c92e9bc07\", baseAdminDir);
 
           onBoarding.addTemplate('lost', '<div class=\"onboarding onboarding-popup bootstrap\">  <div class=\"content\">    <p>¡Eh! ¿Se ha perdido?</p>    <p>Para continuar, haga clic aquí:</p>    <div class=\"text-center\">      <button class=\"btn btn-primary onboarding-button-goto-current\">Continuar</button>    </div>    <p>Si quiere detener el tutorial, haga clic aquí:</p>    <div class=\"text-center\">      <button class=\"btn btn-alert onboarding-button-stop\">Salir del tutorial de bienvenida</button>    </div>  </div></div>');
           onBoarding.addTemplate('popup', '<div class=\"onboarding-popup bootstrap\">  <div class=\"content\"></div></div>');
@@ -1351,18 +1358,18 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
 
 
   ";
-        // line 1311
+        // line 1318
         $this->displayBlock('content_header', $context, $blocks);
-        // line 1312
+        // line 1319
         echo "                 ";
         $this->displayBlock('content', $context, $blocks);
-        // line 1313
+        // line 1320
         echo "                 ";
         $this->displayBlock('content_footer', $context, $blocks);
-        // line 1314
+        // line 1321
         echo "                 ";
         $this->displayBlock('sidebar_right', $context, $blocks);
-        // line 1315
+        // line 1322
         echo "
              
 <div class=\"modal fade\" id=\"modules_list_container\">
@@ -1485,7 +1492,7 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
     </div>
   
 ";
-        // line 1436
+        // line 1443
         $this->displayBlock('javascripts', $context, $blocks);
         $this->displayBlock('extra_javascripts', $context, $blocks);
         $this->displayBlock('translate_javascripts', $context, $blocks);
@@ -1502,27 +1509,27 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
     {
     }
 
-    // line 1311
+    // line 1318
     public function block_content_header($context, array $blocks = [])
     {
     }
 
-    // line 1312
+    // line 1319
     public function block_content($context, array $blocks = [])
     {
     }
 
-    // line 1313
+    // line 1320
     public function block_content_footer($context, array $blocks = [])
     {
     }
 
-    // line 1314
+    // line 1321
     public function block_sidebar_right($context, array $blocks = [])
     {
     }
 
-    // line 1436
+    // line 1443
     public function block_javascripts($context, array $blocks = [])
     {
     }
@@ -1537,12 +1544,12 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
 
     public function getTemplateName()
     {
-        return "__string_template__081453859d916e2229b1b73fbd9c9a0faea67cd60c85001f30c41cde442c6983";
+        return "__string_template__2cec205204439cffe9a7af058868025afafbfb6bd4750a98489081132be5e9dc";
     }
 
     public function getDebugInfo()
     {
-        return array (  1526 => 1436,  1521 => 1314,  1516 => 1313,  1511 => 1312,  1506 => 1311,  1497 => 85,  1489 => 1436,  1366 => 1315,  1363 => 1314,  1360 => 1313,  1357 => 1312,  1355 => 1311,  125 => 85,  39 => 1,);
+        return array (  1533 => 1443,  1528 => 1321,  1523 => 1320,  1518 => 1319,  1513 => 1318,  1504 => 85,  1496 => 1443,  1373 => 1322,  1370 => 1321,  1367 => 1320,  1364 => 1319,  1362 => 1318,  125 => 85,  39 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1555,6 +1562,6 @@ var tdModulesSizeCharts = {\"ajaxUrl\":\"http:\\/\\/localhost\\/mitienda\\/admin
 
     public function getSourceContext()
     {
-        return new Source("", "__string_template__081453859d916e2229b1b73fbd9c9a0faea67cd60c85001f30c41cde442c6983", "");
+        return new Source("", "__string_template__2cec205204439cffe9a7af058868025afafbfb6bd4750a98489081132be5e9dc", "");
     }
 }

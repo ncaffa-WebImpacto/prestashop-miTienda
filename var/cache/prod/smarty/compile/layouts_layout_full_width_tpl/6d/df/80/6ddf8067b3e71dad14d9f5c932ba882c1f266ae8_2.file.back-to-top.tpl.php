@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:57
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:10
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\_partials\_partials\back-to-top.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce919d810_62639949',
+  'unifunc' => 'content_5ec238569785d2_94203961',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce919d810_62639949 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec238569785d2_94203961 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['themeOpt']->value['g_btt_status']) && $_smarty_tpl->tpl_vars['themeOpt']->value['g_btt_status'] == "1") {?>
 	<a class="backtotop" href="javascript:void(0);" style="display:none;">
       <i class="material-icons">keyboard_arrow_up</i>

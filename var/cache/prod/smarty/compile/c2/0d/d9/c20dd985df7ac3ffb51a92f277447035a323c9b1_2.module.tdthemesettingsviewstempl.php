@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:55
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:09
   from 'module:tdthemesettingsviewstempl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce7c1d7f3_19842415',
+  'unifunc' => 'content_5ec23855464236_55369383',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce7c1d7f3_19842415 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec23855464236_55369383 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['previous']->value) || isset($_smarty_tpl->tpl_vars['next']->value)) {?>
     <div id="productsnav">
         <?php if (isset($_smarty_tpl->tpl_vars['previous']->value)) {?>

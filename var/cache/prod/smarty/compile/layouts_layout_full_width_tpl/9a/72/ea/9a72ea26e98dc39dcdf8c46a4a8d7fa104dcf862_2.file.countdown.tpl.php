@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:56
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:09
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\templates\catalog\_partials\countdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce8127453_53137891',
+  'unifunc' => 'content_5ec238558fc7c5_67389370',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce8127453_53137891 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec238558fc7c5_67389370 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\mitienda\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 if (isset($_smarty_tpl->tpl_vars['product']->value['specific_prices']['to']) && (smarty_modifier_date_format(time(),'%Y-%m-%d %H:%M:%S') < smarty_modifier_date_format($_smarty_tpl->tpl_vars['product']->value['specific_prices']['to'],'%Y-%m-%d %H:%M:%S'))) {?>
     <div class="tddeal">

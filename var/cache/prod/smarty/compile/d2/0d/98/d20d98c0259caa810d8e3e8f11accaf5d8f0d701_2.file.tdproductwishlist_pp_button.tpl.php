@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-15 14:36:56
+/* Smarty version 3.1.33, created on 2020-05-18 09:25:09
   from 'C:\xampp\htdocs\mitienda\themes\PRS028\modules\tdproductwishlist\views\templates\hook\tdproductwishlist_pp_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebe8ce83b6461_09736643',
+  'unifunc' => 'content_5ec23855bc3e73_73864843',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ebe8ce83b6461_09736643 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec23855bc3e73_73864843 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="wishlist">
 	<?php if (isset($_smarty_tpl->tpl_vars['wishlists']->value) && count($_smarty_tpl->tpl_vars['wishlists']->value) > 1) {?>
